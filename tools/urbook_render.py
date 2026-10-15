@@ -1,4 +1,7 @@
-"""urbook daily post renderer v4 (11 Oct 2026): spec.json -> feed PNG (1080x1350), story PNG and vertical MP4 (1080x1920).
+"""urbook daily post renderer v5 (15 Oct 2026) – v5: optional "bg" = photo path or list of photo paths; when set, EVERY slide
+gets a full-bleed natural photo under a neutral dark scrim (no navy), cards become dark glass (Shan, 15 Oct 2026).
+Without "bg" the output is exactly v4.
+urbook daily post renderer v4 (11 Oct 2026): spec.json -> feed PNG (1080x1350), story PNG and vertical MP4 (1080x1920).
 Usage: python3 urbook_render.py spec.json logo.png fontsdir outdir
 spec: {"date","tag","hook","hook2","points":[3-5 strings],"news","news_label"(opt), "points_title"(opt, e.g. "3-day itinerary"),
        "challenge"(opt, true on challenge days), "question"(the challenge question)}
@@ -21,9 +24,20 @@ CSS = "".join([face("Baloo 2", f"baloo-2-latin-{w}-normal.woff2", w) for w in (6
 CHECK = f'<svg style="flex-shrink:0" width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="{SUN2}" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5 9.5 18 20 6"/></svg>'
 LOGO = f"file://{os.path.abspath(logo_p)}"
 
-def page(w, h, body):
+BG = S.get("bg") or []
+if isinstance(BG, str): BG = [BG]
+BG = [os.path.abspath(x) for x in BG if x and os.path.exists(x)]
+PH = bool(BG)
+CARD = "rgba(8,12,18,.58)" if PH else INK2
+def bgcss(k):
+    if not PH: return f"background:{INK}"
+    u = BG[k % len(BG)]
+    return (f"background:linear-gradient(180deg,rgba(0,0,0,.42) 0%,rgba(0,0,0,.28) 38%,rgba(0,0,0,.62) 78%,rgba(0,0,0,.82) 100%),"
+            f"url('file://{u}') center/cover no-repeat #111")
+def page(w, h, body, k=0):
     return f"""<!doctype html><html><head><meta charset="utf-8"><style>{CSS}
-*{{box-sizing:border-box}}body{{margin:0;width:{w}px;height:{h}px;background:{INK};color:#fff;font-family:'DM Sans';overflow:hidden}}
+*{{box-sizing:border-box}}body{{margin:0;width:{w}px;height:{h}px;{bgcss(k)};color:#fff;font-family:'DM Sans';overflow:hidden;{'text-shadow:0 2px 14px rgba(0,0,0,.55)' if PH else ''}}}
+.card{{backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}}
 .b{{font-family:'Baloo 2'}} .pill{{background:{SUN};color:{INK};font-weight:700;font-size:26px;letter-spacing:.08em;padding:12px 24px;border-radius:999px;align-self:flex-start}}
 .logo{{width:160px;height:160px;border-radius:30px}}
 </style></head><body>{body}</body></html>"""
@@ -39,15 +53,15 @@ def points(size):
     return head + "".join(f'<div style="display:flex;gap:22px;align-items:center">{CHECK}<span style="font-size:{size}px;font-weight:500;line-height:1.25">{E(p)}</span></div>' for p in S["points"])
 
 def footer():
-    return (f'<div style="display:flex;justify-content:space-between;align-items:center;border-top:2px solid {INK2};padding-top:28px">'
+    return (f'<div style="display:flex;justify-content:space-between;align-items:center;border-top:2px solid {'rgba(255,255,255,.28)' if PH else INK2};padding-top:28px">'
             f'<span class="b" style="font-weight:700;font-size:40px">www.urbook.co.uk</span>'
-            f'<span style="border:3px solid {SUN2};color:{SUN2};font-weight:700;font-size:28px;padding:10px 22px;border-radius:14px">URFIRST10 · £10 off</span></div>')
+            f'<span style="border:3px solid {SUN2};color:{SUN2};font-weight:700;font-size:28px;padding:10px 22px;border-radius:14px;{'background:rgba(8,12,18,.55)' if PH else ''}">URFIRST10 · £10 off</span></div>')
 
 def col(w, h, pad, inner, gap=40):
     return f'<div style="width:{w}px;height:{h}px;padding:{pad};display:flex;flex-direction:column;gap:{gap}px">{inner}</div>'
 
 news_label = S.get("news_label", "TRAVEL NEWS TODAY")
-news_card = (f'<div style="background:{INK2};border-radius:26px;padding:30px 34px;border-top:8px solid {SUN};display:flex;flex-direction:column;gap:10px">'
+news_card = (f'<div class="card" style="background:{CARD};border-radius:26px;padding:30px 34px;border-top:8px solid {SUN};display:flex;flex-direction:column;gap:10px">'
              f'<span style="font-size:22px;font-weight:700;letter-spacing:.12em;color:{SUN2}">{E(news_label)}</span>'
              f'<span style="font-size:30px;line-height:1.35">{E(S["news"])}</span></div>')
 CH = bool(S.get("challenge")) and bool(S.get("question"))
@@ -56,7 +70,7 @@ def qcard(size):
     if not CH: return ""
     if QL > 160: size = int(size * 0.82)
     if QL > 240: size = int(size * 0.85)
-    return (f'<div style="background:{INK2};border-radius:26px;padding:30px 34px;border-left:10px solid {SUN};display:flex;flex-direction:column;gap:14px">'
+    return (f'<div class="card" style="background:{CARD};border-radius:26px;padding:30px 34px;border-left:10px solid {SUN};display:flex;flex-direction:column;gap:14px">'
             f'<span style="font-size:{int(size*0.5)}px;font-weight:700;letter-spacing:.12em;color:{SUN2}">TODAY\'S CHALLENGE</span>'
             f'<span style="font-size:{size}px;font-weight:500;line-height:1.3">{E(S["question"])}</span>'
             f'<span style="font-size:{int(size*0.6)}px;font-weight:500;color:{SUN2};line-height:1.3">Comment your answer &middot; correct answers can win a &pound;50 urbook voucher &middot; T&amp;Cs in caption</span></div>')
@@ -84,9 +98,9 @@ pages = {
 
 with sync_playwright() as p:
     b = p.chromium.launch()
-    for name, (w, h, body) in pages.items():
+    for k, (name, (w, h, body)) in enumerate(pages.items()):
         pg = b.new_page(viewport={"width": w, "height": h})
-        hp=os.path.abspath(f"{out}/_{name}.html"); open(hp,"w").write(page(w, h, body)); pg.goto("file://"+hp); pg.evaluate("document.fonts.ready"); pg.wait_for_timeout(500); os.remove(hp) if False else None
+        hp=os.path.abspath(f"{out}/_{name}.html"); open(hp,"w").write(page(w, h, body, {"feed":0,"v1":0,"v2":1,"v3":2,"v4":3}[name])); pg.goto("file://"+hp); pg.evaluate("document.fonts.ready"); pg.wait_for_timeout(500); os.remove(hp) if False else None
         pg.screenshot(path=f"{out}/{name}.png"); pg.close(); os.remove(hp)
     b.close()
 

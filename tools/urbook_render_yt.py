@@ -1,4 +1,6 @@
-"""urbook YouTube renderer v2 (11 Oct 2026; regular landscape video, not a Short).
+"""urbook YouTube renderer v3 (15 Oct 2026; regular landscape video, not a Short).
+v3: optional "bg" (photo path or list) -> every slide and the thumbnail get a full-bleed natural photo under a neutral
+dark scrim, cards become dark glass; slides cycle through the photos. Without "bg" the output is exactly v2.
 v2: "challenge": true -> the question + a small GBP 50 voucher line are on the title slide (8s) and the thumbnail.
 spec.json -> urbook-<date>-youtube.mp4 (1920x1080, ~45-60s, silent) + urbook-<date>-thumb.png (1280x720).
 Usage: python3 urbook_render_yt.py spec.json logo.png fontsdir outdir
@@ -30,9 +32,20 @@ CSS = "".join([face("Baloo 2", f"baloo-2-latin-{w}-normal.woff2", w) for w in (6
 LOGO = f"file://{os.path.abspath(logo_p)}"
 CHECK = f'<svg style="flex-shrink:0" width="54" height="54" viewBox="0 0 24 24" fill="none" stroke="{SUN2}" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5 9.5 18 20 6"/></svg>'
 
-def page(w, h, body):
+BG = S.get("bg") or []
+if isinstance(BG, str): BG = [BG]
+BG = [os.path.abspath(x) for x in BG if x and os.path.exists(x)]
+PH = bool(BG)
+CARD = "rgba(8,12,18,.58)" if PH else INK2
+def bgcss(k):
+    if not PH: return f"background:{INK}"
+    u = BG[k % len(BG)]
+    return (f"background:linear-gradient(180deg,rgba(0,0,0,.40) 0%,rgba(0,0,0,.30) 40%,rgba(0,0,0,.66) 80%,rgba(0,0,0,.84) 100%),"
+            f"url('file://{u}') center/cover no-repeat #111")
+def page(w, h, body, k=0):
     return f"""<!doctype html><html><head><meta charset="utf-8"><style>{CSS}
-*{{box-sizing:border-box}}body{{margin:0;width:{w}px;height:{h}px;background:{INK};color:#fff;font-family:'DM Sans';overflow:hidden}}
+*{{box-sizing:border-box}}body{{margin:0;width:{w}px;height:{h}px;{bgcss(k)};color:#fff;font-family:'DM Sans';overflow:hidden;{'text-shadow:0 2px 14px rgba(0,0,0,.55)' if PH else ''}}}
+.card{{backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}}
 .b{{font-family:'Baloo 2'}} .pill{{background:{SUN};color:{INK};font-weight:700;font-size:26px;letter-spacing:.08em;padding:12px 26px;border-radius:999px}}
 </style></head><body>{body}</body></html>"""
 
@@ -46,8 +59,8 @@ def footer(k, total):
     return (f'<div style="display:flex;flex-direction:column;gap:18px">'
             f'<div style="display:flex;justify-content:space-between;align-items:center">'
             f'<span class="b" style="font-weight:700;font-size:38px">www.urbook.co.uk</span>'
-            f'<span style="border:3px solid {SUN2};color:{SUN2};font-weight:700;font-size:28px;padding:8px 22px;border-radius:14px">URFIRST10 · £10 off</span></div>'
-            f'<div style="height:8px;background:{INK2};border-radius:4px"><div style="height:8px;width:{pct}%;background:{SUN2};border-radius:4px"></div></div></div>')
+            f'<span style="border:3px solid {SUN2};color:{SUN2};font-weight:700;font-size:28px;padding:8px 22px;border-radius:14px;{'background:rgba(8,12,18,.55)' if PH else ''}">URFIRST10 · £10 off</span></div>'
+            f'<div style="height:8px;background:{'rgba(255,255,255,.25)' if PH else INK2};border-radius:4px"><div style="height:8px;width:{pct}%;background:{SUN2};border-radius:4px"></div></div></div>')
 
 def frame(inner, k, total):
     return (f'<div style="width:{W}px;height:{H}px;padding:64px 110px 56px;display:flex;flex-direction:column;gap:30px">'
@@ -60,7 +73,7 @@ if CH:
     qs = 46 if len(S["question"]) <= 160 else 38
     title = (f'<span class="b" style="font-weight:800;font-size:104px;line-height:.95">{E(S["hook"])}</span>'
              f'<span class="b" style="font-weight:700;font-size:70px;line-height:1;color:{SUN2}">{E(S["hook2"])}</span>'
-             f'<div style="background:{INK2};border-radius:26px;padding:28px 40px;border-left:10px solid {SUN};display:flex;flex-direction:column;gap:12px;max-width:1650px">'
+             f'<div class="card" style="background:{CARD};border-radius:26px;padding:28px 40px;border-left:10px solid {SUN};display:flex;flex-direction:column;gap:12px;max-width:1650px">'
              f'<span style="font-size:{qs}px;font-weight:500;line-height:1.3">{E(S["question"])}</span>'
              f'<span style="font-size:28px;font-weight:500;color:{SUN2}">{PRIZE}</span></div>')
     slides.append((title, 8))
@@ -70,7 +83,7 @@ else:
              + (f'<span style="font-size:40px;color:{PALE};max-width:1500px;line-height:1.3">{E(S.get("headline"))}</span>' if S.get("headline") else ""))
     slides.append((title, 5))
 news = (f'<span class="b" style="font-weight:800;font-size:84px;line-height:1">What\'s new</span>'
-        f'<div style="background:{INK2};border-radius:28px;padding:40px 48px;border-left:10px solid {SUN};display:flex;flex-direction:column;gap:14px;max-width:1600px">'
+        f'<div class="card" style="background:{CARD};border-radius:28px;padding:40px 48px;border-left:10px solid {SUN};display:flex;flex-direction:column;gap:14px;max-width:1600px">'
         f'<span style="font-size:24px;font-weight:700;letter-spacing:.12em;color:{SUN2}">{E(S.get("news_label","TRAVEL NEWS TODAY"))}</span>'
         f'<span style="font-size:46px;line-height:1.3">{E(S["news"])}</span>'
         + (f'<span style="font-size:24px;color:{PALE}">{E(S.get("news_source"))}</span>' if S.get("news_source") else "")
@@ -103,7 +116,7 @@ TQ = ""
 if CH:
     TQ = (f'<span style="font-size:{30 if len(S["question"])<=120 else 24}px;line-height:1.3;max-width:1150px;margin-top:14px">{E(S["question"])}</span>'
           f'<span style="font-size:22px;color:{SUN2}">Comment your answer &middot; win a &pound;50 urbook voucher</span>')
-thumb = (f'<div style="width:1280px;height:720px;padding:52px 64px;display:flex;flex-direction:column;justify-content:space-between;background:{INK}">'
+thumb = (f'<div style="width:1280px;height:720px;padding:52px 64px;display:flex;flex-direction:column;justify-content:space-between">'
          f'<div style="display:flex;justify-content:space-between;align-items:flex-start"><span class="pill" style="font-size:24px">{E(S["tag"]).upper()}</span>'
          f'<img src="{LOGO}" style="width:120px;height:120px;border-radius:24px"></div>'
          f'<div style="display:flex;flex-direction:column;gap:10px"><span class="b" style="font-weight:800;font-size:{80 if CH else 112}px;line-height:.92">{E(S["hook"])}</span>'
@@ -116,7 +129,8 @@ with sync_playwright() as p:
     jobs = [(f"s{k}", W, H, body) for k, body in enumerate(bodies)] + [("thumb", 1280, 720, thumb)]
     for name, w, h, body in jobs:
         pg = b.new_page(viewport={"width": w, "height": h})
-        hp = os.path.abspath(f"{out}/_{name}.html"); open(hp, "w").write(page(w, h, body))
+        k = 0 if name == "thumb" else int(name[1:])
+        hp = os.path.abspath(f"{out}/_{name}.html"); open(hp, "w").write(page(w, h, body, k))
         pg.goto("file://" + hp); pg.evaluate("document.fonts.ready"); pg.wait_for_timeout(500)
         pg.screenshot(path=f"{out}/_{name}.png"); pg.close(); os.remove(hp)
     b.close()

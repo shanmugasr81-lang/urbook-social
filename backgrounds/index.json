@@ -1,0 +1,322 @@
+{
+ "updated": "2026-10-15",
+ "note": "Background photos for social posts. All checked: no recognisable faces, no readable number plates, no other company's logo as the subject. Pick by category; rotate via Wix SocialMediaLog.",
+ "items": [
+  {
+   "file": "backgrounds/airport/pexels-13716228.jpg",
+   "category": "airport",
+   "subject": "modern glass airport terminal",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/13716228/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1800"
+  },
+  {
+   "file": "backgrounds/airport/pexels-1381416.jpg",
+   "category": "airport",
+   "subject": "airport apron with baggage tug and terminal",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/1381416/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1600"
+  },
+  {
+   "file": "backgrounds/airport/pexels-16562841.jpg",
+   "category": "airport",
+   "subject": "jet aircraft at a terminal gate",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/16562841/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1601"
+  },
+  {
+   "file": "backgrounds/airport/pexels-2833379.jpg",
+   "category": "airport",
+   "subject": "flight departures board",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/2833379/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1600"
+  },
+  {
+   "file": "backgrounds/flight/pexels-18090300.jpg",
+   "category": "flight",
+   "subject": "aircraft seen through a plane window",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/18090300/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1600"
+  },
+  {
+   "file": "backgrounds/flight/pexels-1973183.jpg",
+   "category": "flight",
+   "subject": "plane wing over snowy mountains through the window",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/1973183/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1600"
+  },
+  {
+   "file": "backgrounds/flight/pexels-33976726.jpg",
+   "category": "flight",
+   "subject": "plane wing above the clouds",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/33976726/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1611"
+  },
+  {
+   "file": "backgrounds/flight/pexels-3912838.jpg",
+   "category": "flight",
+   "subject": "airliner in a clear sky",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/3912838/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1600"
+  },
+  {
+   "file": "backgrounds/flight/pexels-735236.jpg",
+   "category": "flight",
+   "subject": "sunset through a plane window",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/735236/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1600"
+  },
+  {
+   "file": "backgrounds/flight/pexels-9129698.jpg",
+   "category": "flight",
+   "subject": "wide-body airliner taking off",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/9129698/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1600"
+  },
+  {
+   "file": "backgrounds/parking/pexels-15216662.jpg",
+   "category": "parking",
+   "subject": "multi-storey car park with parked cars",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/15216662/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1600"
+  },
+  {
+   "file": "backgrounds/parking/pexels-16896042.jpg",
+   "category": "parking",
+   "subject": "open car park at night under lights",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/16896042/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1600"
+  },
+  {
+   "file": "backgrounds/parking/pexels-17051849.jpg",
+   "category": "parking",
+   "subject": "large airport-style surface car park from above",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/17051849/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1600"
+  },
+  {
+   "file": "backgrounds/parking/pexels-17580917.jpg",
+   "category": "parking",
+   "subject": "covered car park deck, black and white",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/17580917/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1602"
+  },
+  {
+   "file": "backgrounds/parking/pexels-18344080.jpg",
+   "category": "parking",
+   "subject": "bright underground car park",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/18344080/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1601"
+  },
+  {
+   "file": "backgrounds/parking/pexels-19184902.jpg",
+   "category": "parking",
+   "subject": "aerial view of a multi-storey car park in Luton, black and white",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/19184902/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1350"
+  },
+  {
+   "file": "backgrounds/transfer/pexels-12689746.jpg",
+   "category": "transfer",
+   "subject": "taxi driving through a city at night",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/12689746/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1600"
+  },
+  {
+   "file": "backgrounds/transfer/pexels-17455628.jpg",
+   "category": "transfer",
+   "subject": "luxury car / limousine interior",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/17455628/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1600"
+  },
+  {
+   "file": "backgrounds/transfer/pexels-39075475.jpg",
+   "category": "transfer",
+   "subject": "white minibus at an airport drop-off",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/39075475/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1600"
+  },
+  {
+   "file": "transfers/photos/Transfers7-hd.jpg",
+   "category": "transfer",
+   "subject": "black executive car outside a hotel",
+   "source": "Shan (urbook owner)",
+   "licence": "owned by urbook",
+   "faces": false,
+   "size": "1923x1080"
+  },
+  {
+   "file": "holiday/photos/IMG_8923-hd.jpg",
+   "category": "holiday",
+   "subject": "Nepal \u2013 singing bowls",
+   "source": "Shan (urbook owner)",
+   "licence": "owned by urbook",
+   "faces": false,
+   "size": "1440x1080"
+  },
+  {
+   "file": "holiday/photos/IMG_8925-hd.jpg",
+   "category": "holiday",
+   "subject": "Nepal \u2013 singing bowls and prayer flags",
+   "source": "Shan (urbook owner)",
+   "licence": "owned by urbook",
+   "faces": false,
+   "size": "1440x1080"
+  },
+  {
+   "file": "holiday/photos/IMG_8926-hd.jpg",
+   "category": "holiday",
+   "subject": "Nepal \u2013 Himalayan waterfall",
+   "source": "Shan (urbook owner)",
+   "licence": "owned by urbook",
+   "faces": false,
+   "size": "1080x1440"
+  },
+  {
+   "file": "holiday/photos/IMG_8927-hd.jpg",
+   "category": "holiday",
+   "subject": "Nepal \u2013 Himalayan waterfall",
+   "source": "Shan (urbook owner)",
+   "licence": "owned by urbook",
+   "faces": false,
+   "size": "1080x1440"
+  },
+  {
+   "file": "holiday/photos/IMG_8928-hd.jpg",
+   "category": "holiday",
+   "subject": "Nepal \u2013 Himalayan waterfall",
+   "source": "Shan (urbook owner)",
+   "licence": "owned by urbook",
+   "faces": false,
+   "size": "1080x1440"
+  },
+  {
+   "file": "holiday/photos/IMG_8929-hd.jpg",
+   "category": "holiday",
+   "subject": "Nepal \u2013 snowy mountain road",
+   "source": "Shan (urbook owner)",
+   "licence": "owned by urbook",
+   "faces": false,
+   "size": "1080x1440"
+  },
+  {
+   "file": "holiday/photos/IMG_8930-hd.jpg",
+   "category": "holiday",
+   "subject": "Nepal \u2013 Himalaya view over the hills",
+   "source": "Shan (urbook owner)",
+   "licence": "owned by urbook",
+   "faces": false,
+   "size": "1440x1080"
+  },
+  {
+   "file": "holiday/photos/IMG_8932-hd.jpg",
+   "category": "holiday",
+   "subject": "Nepal \u2013 Himalayan peak at sunrise",
+   "source": "Shan (urbook owner)",
+   "licence": "owned by urbook",
+   "faces": false,
+   "size": "1080x1440"
+  },
+  {
+   "file": "holiday/photos/IMG_8934-hd.jpg",
+   "category": "holiday",
+   "subject": "Nepal \u2013 Annapurna range at sunrise",
+   "source": "Shan (urbook owner)",
+   "licence": "owned by urbook",
+   "faces": false,
+   "size": "1440x1080"
+  },
+  {
+   "file": "holiday/photos/IMG_8935-hd.jpg",
+   "category": "holiday",
+   "subject": "Nepal \u2013 Nepali thali (food)",
+   "source": "Shan (urbook owner)",
+   "licence": "owned by urbook",
+   "faces": false,
+   "size": "1080x1440"
+  },
+  {
+   "file": "holiday/photos/IMG_8936-hd.jpg",
+   "category": "holiday",
+   "subject": "Nepal \u2013 snowy mountain shrine",
+   "source": "Shan (urbook owner)",
+   "licence": "owned by urbook",
+   "faces": false,
+   "size": "1080x1440"
+  },
+  {
+   "file": "holiday/photos/IMG_8960-hd.jpg",
+   "category": "holiday",
+   "subject": "Nepal \u2013 boats on a lake",
+   "source": "Shan (urbook owner)",
+   "licence": "owned by urbook",
+   "faces": false,
+   "size": "1080x1440"
+  },
+  {
+   "file": "holiday/photos/IMG_8973-hd.jpg",
+   "category": "holiday",
+   "subject": "Nepal \u2013 helicopter in the Everest region",
+   "source": "Shan (urbook owner)",
+   "licence": "owned by urbook",
+   "faces": false,
+   "size": "1448x1080"
+  }
+ ]
+}
