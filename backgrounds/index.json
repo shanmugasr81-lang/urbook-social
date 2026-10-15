@@ -500,6 +500,18 @@
    "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
    "faces": false,
    "usedOn": "urbook holiday result cards (Holidays.heroImage)"
+  },
+  {
+   "file": "backgrounds/occasion/unsplash-ed5KySP1tfQ.jpg",
+   "category": "occasion",
+   "occasion": "Halloween",
+   "subject": "two glowing jack-o'-lanterns at night",
+   "source": "Unsplash",
+   "sourceUrl": "https://unsplash.com/photos/ed5KySP1tfQ",
+   "downloadUrl": "https://images.unsplash.com/photo-1477516561410-f0b5dd8319e4?w=2000&q=85&fm=jpg",
+   "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
+   "faces": false,
+   "usedOn": "Halloween 2026 marketing email (Campaigns.heroImage)"
   }
  ]
 }
