@@ -677,6 +677,160 @@
       "faces": false,
       "size": "2250x1200",
       "enlarged": true
+    },
+    {
+      "file": "holiday/photos/nepal/nepal-everest-lhotse-thamserku-view.jpg",
+      "category": "holiday",
+      "region": "Nepal",
+      "subject": "Thamserku with Everest and Lhotse beyond, Everest region",
+      "source": "Shan (owner-supplied, 16 Oct 2026)",
+      "licence": "urbook own use",
+      "faces": false,
+      "size": "1600x1200",
+      "enlarged": false
+    },
+    {
+      "file": "holiday/photos/nepal/nepal-everest-nuptse-kala-patthar.jpg",
+      "category": "holiday",
+      "region": "Nepal",
+      "subject": "Everest and Nuptse above the Khumbu glacier",
+      "source": "Shan (owner-supplied, 16 Oct 2026)",
+      "licence": "urbook own use",
+      "faces": false,
+      "size": "1600x1200",
+      "enlarged": false
+    },
+    {
+      "file": "holiday/photos/nepal/nepal-annapurna-base-camp-helicopter.jpg",
+      "category": "holiday",
+      "region": "Nepal",
+      "subject": "Annapurna Base Camp lodges and helicopter below Annapurna I",
+      "source": "Shan (owner-supplied, 16 Oct 2026)",
+      "licence": "urbook own use",
+      "faces": false,
+      "size": "1600x1200",
+      "enlarged": false
+    },
+    {
+      "file": "holiday/photos/nepal/nepal-everest-lhotse-ama-dablam-view.jpg",
+      "category": "holiday",
+      "region": "Nepal",
+      "subject": "Everest, Lhotse and Ama Dablam across the Khumbu valley",
+      "source": "Shan (owner-supplied, 16 Oct 2026)",
+      "licence": "urbook own use",
+      "faces": false,
+      "size": "1600x1200",
+      "enlarged": false
+    },
+    {
+      "file": "holiday/photos/nepal/nepal-helicopter-everest-nuptse-close.jpg",
+      "category": "holiday",
+      "region": "Nepal",
+      "subject": "helicopter from behind below Everest and Nuptse",
+      "source": "Shan (owner-supplied, 16 Oct 2026)",
+      "licence": "urbook own use",
+      "faces": false,
+      "size": "1600x1200",
+      "enlarged": false
+    },
+    {
+      "file": "holiday/photos/nepal/nepal-helicopter-below-everest-nuptse.jpg",
+      "category": "holiday",
+      "region": "Nepal",
+      "subject": "helicopter landed below Everest and Nuptse, deep blue sky",
+      "source": "Shan (owner-supplied, 16 Oct 2026)",
+      "licence": "urbook own use",
+      "faces": false,
+      "size": "1600x1200",
+      "enlarged": false
+    },
+    {
+      "file": "holiday/photos/nepal/nepal-helicopter-everest-nuptse-side.jpg",
+      "category": "holiday",
+      "region": "Nepal",
+      "subject": "helicopter side view in front of Everest and Nuptse",
+      "source": "Shan (owner-supplied, 16 Oct 2026)",
+      "licence": "urbook own use",
+      "faces": false,
+      "size": "1600x1200",
+      "enlarged": false
+    },
+    {
+      "file": "holiday/photos/nepal/nepal-helicopter-everest-nuptse-wide.jpg",
+      "category": "holiday",
+      "region": "Nepal",
+      "subject": "helicopter on a snowy ridge, Everest and Nuptse, wide sky",
+      "source": "Shan (owner-supplied, 16 Oct 2026)",
+      "licence": "urbook own use",
+      "faces": false,
+      "size": "1600x1200",
+      "enlarged": false
+    },
+    {
+      "file": "holiday/photos/nepal/nepal-khumbu-glacier-peaks.jpg",
+      "category": "holiday",
+      "region": "Nepal",
+      "subject": "Khumbu glacier and snow peaks, Everest region",
+      "source": "Shan (owner-supplied, 16 Oct 2026)",
+      "licence": "urbook own use",
+      "faces": false,
+      "size": "1600x1200",
+      "enlarged": false
+    },
+    {
+      "file": "holiday/photos/nepal/nepal-gosainkunda-shiva-shrine-helicopter.jpg",
+      "category": "holiday",
+      "region": "Nepal",
+      "subject": "Shiva shrine at Gosainkunda with helicopter, person from behind",
+      "source": "Shan (owner-supplied, 16 Oct 2026)",
+      "licence": "urbook own use",
+      "faces": false,
+      "size": "1600x1200",
+      "enlarged": false
+    },
+    {
+      "file": "holiday/photos/nepal/nepal-everest-nuptse-blue-sky.jpg",
+      "category": "holiday",
+      "region": "Nepal",
+      "subject": "Everest and Nuptse under a clear blue sky",
+      "source": "Shan (owner-supplied, 16 Oct 2026)",
+      "licence": "urbook own use",
+      "faces": false,
+      "size": "1600x1200",
+      "enlarged": false
+    },
+    {
+      "file": "holiday/photos/nepal/nepal-gosainkunda-shrine-trident-helicopter.jpg",
+      "category": "holiday",
+      "region": "Nepal",
+      "subject": "Gosainkunda shrine and trident, helicopter beyond, person from behind",
+      "source": "Shan (owner-supplied, 16 Oct 2026)",
+      "licence": "urbook own use",
+      "faces": false,
+      "size": "1600x1200",
+      "enlarged": false
+    },
+    {
+      "file": "holiday/photos/nepal/nepal-gosainkunda-frozen-lake-sun-halo.jpg",
+      "category": "holiday",
+      "region": "Nepal",
+      "subject": "frozen Gosainkunda lake under a sun halo",
+      "source": "Shan (owner-supplied, 16 Oct 2026)",
+      "licence": "urbook own use",
+      "faces": false,
+      "size": "1600x1200",
+      "enlarged": false
+    },
+    {
+      "file": "holiday/photos/nepal/nepal-gosainkunda-frozen-lake-snow.jpg",
+      "category": "holiday",
+      "region": "Nepal",
+      "subject": "frozen Gosainkunda lake and snowy rocks",
+      "source": "Shan (owner-supplied, 16 Oct 2026)",
+      "licence": "urbook own use",
+      "faces": false,
+      "size": "1600x1200",
+      "enlarged": false
     }
   ]
 }
