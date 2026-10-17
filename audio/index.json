@@ -1,0 +1,16 @@
+{
+  "about": "urbook sound beds, played in this order (seq). All are original or royalty-free and owned by urbook. 01-04 are the first four beds; 05-10 were made for urbook on 17 Oct 2026. Add a new track by giving it the next seq number and a file name starting with that number.",
+  "updated": "2026-10-17",
+  "tracks": [
+    {"seq": 1,  "file": "audio/airport-calm.m4a",          "name": "Airport calm",       "mood": "calm, airy",                   "fits": ["parking", "transfers", "news"]},
+    {"seq": 2,  "file": "audio/sunrise-journey.m4a",       "name": "Sunrise journey",    "mood": "warm, inspiring",              "fits": ["holidays", "nepal", "south-india", "sri-lanka", "itinerary", "festival"]},
+    {"seq": 3,  "file": "audio/soft-travel.m4a",           "name": "Soft travel",        "mood": "gentle, friendly",             "fits": ["parking", "transfers", "news", "trust"]},
+    {"seq": 4,  "file": "audio/lounge-evening.m4a",        "name": "Lounge evening",     "mood": "smooth, late",                 "fits": ["park-sleep-fly", "early-flight", "business"]},
+    {"seq": 5,  "file": "audio/05-lofi-departures.m4a",    "name": "Lo-fi departures",   "mood": "lo-fi beat, relaxed, 80 bpm",  "fits": ["parking", "airport-tips", "pov", "checklist", "business"]},
+    {"seq": 6,  "file": "audio/06-acoustic-roadtrip.m4a",  "name": "Acoustic road trip", "mood": "upbeat acoustic, 104 bpm",     "fits": ["transfers", "family", "half-term", "holidays"]},
+    {"seq": 7,  "file": "audio/07-himalaya-dawn.m4a",      "name": "Himalaya dawn",      "mood": "cinematic swell, bells",       "fits": ["nepal", "holidays", "dare", "calling"]},
+    {"seq": 8,  "file": "audio/08-spice-route.m4a",        "name": "Spice route",        "mood": "tanpura drone + tabla, 92 bpm","fits": ["south-india", "sri-lanka", "diaspora", "festival", "holidays"]},
+    {"seq": 9,  "file": "audio/09-island-breeze.m4a",      "name": "Island breeze",      "mood": "marimba, tropical, 100 bpm",   "fits": ["sri-lanka", "south-india", "couples", "holidays"]},
+    {"seq": 10, "file": "audio/10-city-pulse.m4a",         "name": "City pulse",         "mood": "upbeat electronic, 118 bpm",   "fits": ["parking", "transfers", "business", "airport-tips", "secret", "money"]}
+  ]
+}
