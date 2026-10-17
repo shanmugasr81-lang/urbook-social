@@ -73,7 +73,7 @@ def qcard(size):
     return (f'<div class="card" style="background:{CARD};border-radius:26px;padding:30px 34px;border-left:10px solid {SUN};display:flex;flex-direction:column;gap:14px">'
             f'<span style="font-size:{int(size*0.5)}px;font-weight:700;letter-spacing:.12em;color:{SUN2}">TODAY\'S CHALLENGE</span>'
             f'<span style="font-size:{size}px;font-weight:500;line-height:1.3">{E(S["question"])}</span>'
-            f'<span style="font-size:{int(size*0.6)}px;font-weight:500;color:{SUN2};line-height:1.3">Comment your answer &middot; correct answers can win a &pound;50 urbook voucher &middot; T&amp;Cs in caption</span></div>')
+            f'<span style="font-size:{int(size*0.6)}px;font-weight:500;color:{SUN2};line-height:1.3">Comment your answer &middot; correct answers go into our &pound;50 lucky draw &middot; T&amp;Cs in caption</span></div>')
 hook = (f'<div style="display:flex;flex-direction:column;gap:14px"><span class="b" style="font-weight:800;font-size:{{s}}px;line-height:.95">{E(S["hook"])}</span>'
         f'<span class="b" style="font-weight:700;font-size:{{s2}}px;line-height:1;color:{SUN2}">{E(S["hook2"])}</span></div>')
 

@@ -68,7 +68,7 @@ def frame(inner, k, total):
 
 slides = []  # (html_inner, seconds)
 CH = bool(S.get("challenge")) and bool(S.get("question"))
-PRIZE = "Comment your answer &middot; correct answers can win a &pound;50 urbook voucher &middot; T&amp;Cs in the description"
+PRIZE = "Comment your answer &middot; correct answers go into our &pound;50 lucky draw &middot; T&amp;Cs in the description"
 if CH:
     qs = 46 if len(S["question"]) <= 160 else 38
     title = (f'<span class="b" style="font-weight:800;font-size:104px;line-height:.95">{E(S["hook"])}</span>'
@@ -115,7 +115,7 @@ durs = [d for _, d in slides] + [7]
 TQ = ""
 if CH:
     TQ = (f'<span style="font-size:{30 if len(S["question"])<=120 else 24}px;line-height:1.3;max-width:1150px;margin-top:14px">{E(S["question"])}</span>'
-          f'<span style="font-size:22px;color:{SUN2}">Comment your answer &middot; win a &pound;50 urbook voucher</span>')
+          f'<span style="font-size:22px;color:{SUN2}">Comment your answer &middot; enter our &pound;50 lucky draw</span>')
 thumb = (f'<div style="width:1280px;height:720px;padding:52px 64px;display:flex;flex-direction:column;justify-content:space-between">'
          f'<div style="display:flex;justify-content:space-between;align-items:flex-start"><span class="pill" style="font-size:24px">{E(S["tag"]).upper()}</span>'
          f'<img src="{LOGO}" style="width:120px;height:120px;border-radius:24px"></div>'
