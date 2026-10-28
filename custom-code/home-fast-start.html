@@ -1,11 +1,5 @@
-<!-- urbook fast start — 17 Oct 2026 (21 Oct: reserved space, no layout shift; 28 Oct: offers line + timed-offer tile from /_functions/offers). Wix Custom Code: HEAD · All pages · Load code once · Essential.
-     (Body-start snippets are not in Wix's server HTML; Head ones are.) Builds a quick-start card on the
-     HOME page only, the moment <body> exists — before Wix and our custom elements load. Its buttons NEVER
-     leave Home: they open the matching tab (parking / transfers / holidays) of the real search form as soon
-     as <ezy-search-bar> is ready, then the card fades. Exempt from the pre-boot shield (:not(#ub-fast)).
-     No tracking, no cookies, no data. Source of truth: Urbookvelo docs/custom-code/home-fast-start.html -->
-<!-- 21 Oct 2026 (PageSpeed): Manrope for the header, search bar and cookie bar, loaded ONCE and without blocking
-     (media=print then all). @font-face rules apply inside the elements' shadow roots. Replaces their blocking @imports. -->
+<!-- urbook fast start (Home only card + live offers). Wix: HEAD, All pages, Load once, Essential. Wix max 15,000 chars. Notes + source: Urbookvelo docs/custom-code (README). -->
+<!-- Manrope, loaded once without blocking (media=print then all). -->
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'">
 <style id="ub-fast-css">
