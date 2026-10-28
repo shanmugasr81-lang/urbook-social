@@ -1,0 +1,215 @@
+<!-- urbook fast start — 17 Oct 2026 (21 Oct: reserved space, no layout shift; 28 Oct: offers line + timed-offer tile from /_functions/offers). Wix Custom Code: HEAD · All pages · Load code once · Essential.
+     (Body-start snippets are not in Wix's server HTML; Head ones are.) Builds a quick-start card on the
+     HOME page only, the moment <body> exists — before Wix and our custom elements load. Its buttons NEVER
+     leave Home: they open the matching tab (parking / transfers / holidays) of the real search form as soon
+     as <ezy-search-bar> is ready, then the card fades. Exempt from the pre-boot shield (:not(#ub-fast)).
+     No tracking, no cookies, no data. Source of truth: Urbookvelo docs/custom-code/home-fast-start.html -->
+<!-- 21 Oct 2026 (PageSpeed): Manrope for the header, search bar and cookie bar, loaded ONCE and without blocking
+     (media=print then all). @font-face rules apply inside the elements' shadow roots. Replaces their blocking @imports. -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'">
+<style id="ub-fast-css">
+#ub-fast{position:fixed;left:0;right:0;top:84px;z-index:2147483001;display:flex;justify-content:center;padding:0 16px;
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;transition:opacity .35s ease;pointer-events:none;visibility:visible !important}
+#ub-fast.ub-gone{opacity:0}
+/* 22 Oct 2026 21:55 P1 FIX: #ub-fast has visibility:visible !important, so the inline visibility:hidden set on fade
+   never applied and the invisible card (.ub-card pointer-events:auto) sat over the search tabs and swallowed every click.
+   The faded card is now click-through at once and fully hidden after the fade (classes, not inline style). */
+#ub-fast.ub-gone,#ub-fast.ub-gone *{pointer-events:none !important}
+#ub-fast.ub-hidden,#ub-fast.ub-hidden *{visibility:hidden !important;pointer-events:none !important}
+#ub-fast .ub-card{pointer-events:auto;width:100%;max-width:640px;background:#0E2A47;color:#fff;border:1px solid #17395C;
+  border-radius:16px;padding:22px 20px 20px;box-shadow:0 12px 40px rgba(0,0,0,.35);box-sizing:border-box}
+#ub-fast .ub-h{margin:0 0 6px;font-size:24px;line-height:1.2;font-weight:800;color:#fff}
+#ub-fast .ub-p{margin:0 0 16px;font-size:15px;line-height:1.45;color:#E8EEF5}
+#ub-fast .ub-btns{display:grid;gap:10px}
+#ub-fast button{font:inherit;cursor:pointer;width:100%;display:flex;align-items:center;justify-content:center;min-height:52px;box-sizing:border-box;border-radius:12px;padding:14px 16px;font-size:16px;font-weight:700;text-align:center}
+#ub-fast button.ub-main{background:#F5821F;color:#0E2A47;border:0}
+#ub-fast button.ub-main:hover{background:#E1720E}
+#ub-fast button.ub-alt{background:#17395C;color:#fff;border:1px solid #2E4D70}
+#ub-fast button.ub-alt:hover{background:#1F4670}
+#ub-fast .ub-note{margin:14px 0 0;font-size:13px;color:#C9D6E3;text-align:center}
+/* 28 Oct 2026 (Shan): offers at first glance – codes line + a timed-offer tile with its picture. */
+#ub-fast .ub-codes{margin:14px 0 0;font-size:14px;line-height:1.6;color:#E8EEF5;text-align:center}
+#ub-fast .ub-codes b{color:#FFB020}
+#ub-fast .ub-code{display:inline-block;background:#F5821F;color:#0E2A47;font-weight:800;border-radius:6px;padding:0 7px;margin:0 2px;letter-spacing:.02em}
+#ub-fast .ub-deal{display:flex;align-items:center;gap:12px;margin:14px 0 0;padding:10px 12px;border-radius:12px;background:rgba(255,176,32,.12);border:1px solid rgba(255,176,32,.45);text-align:left}
+#ub-fast .ub-deal[hidden]{display:none}
+#ub-fast .ub-deal img{width:64px;height:64px;object-fit:cover;border-radius:10px;flex:0 0 auto;background:#17395C}
+#ub-fast .ub-deal .ub-dt{font-size:15px;line-height:1.35;color:#fff}
+#ub-fast .ub-deal .ub-dt b{color:#FFB020}
+#ub-fast .ub-deal .ub-ds{display:block;font-size:13px;color:#C9D6E3}
+@media (min-width:980px){#ub-fast .ub-codes{text-align:left;font-size:16px;max-width:860px}#ub-fast .ub-deal{max-width:860px}}
+@media (min-width:700px){#ub-fast{top:110px}#ub-fast .ub-btns{grid-template-columns:1fr 1fr 1fr}#ub-fast .ub-h{font-size:28px}}
+/* 21 Oct 2026 – DESKTOP FIRST SCREEN (PageSpeed): on laptops the card is the first screen itself – a wide hero
+   with a big heading, the intro and the three product buttons, drawn at first paint from this Head snippet,
+   sitting over the space held for the search bar until the full search form is ready (then it fades). */
+@media (min-width:980px){
+  #ub-fast{top:104px;padding:0 24px}
+  #ub-fast .ub-card{max-width:1100px;padding:44px 48px 40px;border-radius:20px;
+    background:radial-gradient(900px 340px at 88% 0%,rgba(245,130,31,.16),transparent 60%),linear-gradient(165deg,#0E2A47 0%,#17395C 100%)}
+  #ub-fast .ub-h{font-size:46px;line-height:1.12;letter-spacing:-.02em;margin:0 0 14px}
+  #ub-fast .ub-p{font-size:19px;line-height:1.55;max-width:860px;margin:0 0 28px}
+  #ub-fast .ub-btns{max-width:860px;gap:14px}
+  #ub-fast button{min-height:60px;font-size:17px}
+  #ub-fast .ub-note{text-align:left;font-size:14px}
+}
+/* 21 Oct 2026 (PageSpeed, layout shift 0.657 on desktop): hold the space for the search bar and the Home
+   sections until their scripts arrive, keep the Home sections hidden until the search bar above them is drawn,
+   and keep the footer hidden until the Home sections are in – nothing visible moves. Rules apply only while the
+   elements are not yet defined, so they switch themselves off. */
+ezy-search-bar:not(:defined){display:block;min-height:640px}
+@media (max-width:767px){ezy-search-bar:not(:defined){min-height:560px}}
+ezy-home-sections:not(:defined){display:block;min-height:150vh}
+/* 21 Oct 2026 pm: scoped selectors (sibling wrappers) instead of html:has(...) – a page-wide :has() re-checks the whole page on every change and cost ~1 s of style work on phones. */
+#comp-mrhr34sv:has(ezy-search-bar:not(:defined)) ~ #comp-mr83vckd{visibility:hidden;animation:ub-show 0s linear 6s forwards}
+@media (min-width:980px){ezy-search-bar{display:block;min-height:718px}ezy-header:not(:defined){display:block;min-height:104px}#SITE_HEADER{min-height:106px}}  /* desktop: parking tab is 718 px, header 104 px (measured 21 Oct) – search bar draws in steps, so hold it all the time */
+html.ub-hs-wait #SITE_FOOTER{visibility:hidden}  /* footer waits for the Home sections (class removed by the script below, 6 s at most) */
+#comp-mrmaxwyu{visibility:hidden!important}  /* 22 Oct 2026 speed fix: the Welcome SEO text (behind the Home sections, Shan) is never painted - revealing it at ~2.5 s made it the desktop LCP (85-87). Stays in the HTML for Google. */
+@keyframes ub-show{to{visibility:visible}}  /* safety: shown after 6 s even if a script never arrives */
+</style>
+<script>
+(function () {
+  try {
+    function onHome() { var p = location.pathname.replace(/\/+$/, ''); return p === '' || p === '/home'; }
+    if (!onHome()) return;
+
+    /* Footer waits for the Home sections so it never jumps (cheap class switch, not :has). */
+    try {
+      var de = document.documentElement; de.classList.add('ub-hs-wait');
+      var unwait = function () { de.classList.remove('ub-hs-wait'); };
+      if (window.customElements && customElements.whenDefined) customElements.whenDefined('ezy-home-sections').then(function () { requestAnimationFrame(function () { requestAnimationFrame(unwait); }); });
+      setTimeout(unwait, 6000);
+    } catch (e) {}
+
+    /* SHOW_CARD (21 Oct 2026): A/B test with card OFF gave mobile 65 / desktop 87 vs 92 / 99 with card ON, so card stays ON. false = no first-screen card. */
+    var SHOW_CARD = true;
+    var LABEL = { parking: 'Airport parking', xfer: 'Airport transfers', holiday: 'Holiday packages' };
+    var html =
+      '<div class="ub-card">' +
+        '<div class="ub-h" role="heading" aria-level="2">Airport parking, transfers &amp; holidays</div>' +
+        '<p class="ub-p">Compare fixed prices from vetted Heathrow car parks, airport transfer drivers and holiday operators. No booking fee &ndash; the total you see is what you pay.</p>' +
+        '<div class="ub-btns">' +
+          '<button type="button" class="ub-main" data-svc="parking">Airport parking</button>' +
+          '<button type="button" class="ub-alt" data-svc="xfer">Airport transfers</button>' +
+          '<button type="button" class="ub-alt" data-svc="holiday">Holiday packages</button>' +
+        '</div>' +
+        '<div class="ub-deal" id="ub-fast-deal" hidden></div>' +
+        '<p class="ub-codes" id="ub-fast-codes">&#127873; First booking: <b>&pound;10 off</b> <span class="ub-code">URFIRST10</span> or <b>10% off</b> <span class="ub-code">WELCOMEUR</span> &middot; Coming back? <b>&pound;5 off</b> <span class="ub-code">URBACK5</span></p>' +
+        '<p class="ub-note" id="ub-fast-note">Pick one — the full search is loading…</p>' +
+      '</div>';
+
+    var box = null, done = false, wanted = '', t0 = Date.now();
+
+    function hide() {
+      if (done && !box) return;
+      done = true;
+      if (!box) return;
+      var b2 = box; box = null;
+      b2.className = 'ub-gone';
+      /* 22 Oct 2026 speed fix: faded and KEPT, not removed - Lighthouse drops a removed element as LCP, so the
+         0.6 s card paint was lost and the LCP fell to the Home sections heading at ~2.3 s (desktop 85-88). */
+      setTimeout(function () { b2.className = 'ub-gone ub-hidden'; b2.setAttribute('aria-hidden', 'true'); }, 400);
+    }
+    function bar() {
+      var el = document.querySelector('ezy-search-bar');
+      return (el && window.customElements && customElements.get('ezy-search-bar')) ? el : null;
+    }
+    function ready() {
+      var el = bar(); if (!el) return false;
+      var r = el.shadowRoot || el;
+      var h = el.getBoundingClientRect ? el.getBoundingClientRect().height : 0;
+      return h > 120 && !!(r.querySelector && r.querySelector('button, select, input'));
+    }
+    /* Open the chosen tab inside <ezy-search-bar> (its .tab[data-svc] buttons). */
+    function openTab(svc) {
+      try {
+        var el = bar(); var r = el && (el.shadowRoot || el);
+        var t = r && r.querySelector('.tab[data-svc="' + svc + '"]');
+        if (!t) return false;
+        t.click();
+        if (el.scrollIntoView) el.scrollIntoView({ block: 'center', behavior: 'smooth' });
+        return true;
+      } catch (e) { return false; }
+    }
+    function choose(svc) {
+      wanted = svc;
+      var n = document.getElementById('ub-fast-note');
+      if (n) n.textContent = 'Opening ' + (LABEL[svc] || 'the search') + '…';
+      if (ready()) { openTab(svc); hide(); }
+    }
+    /* 28 Oct 2026: live offers. The card starts with the built-in codes line above; /_functions/offers
+       (backend/discount-engine.jsw listLiveOffers, cached 5 min) replaces it with today's codes and adds
+       a tile for a timed offer (picture, % off, code, end date). A failed call leaves the built-in line. */
+    var OFFERS = null;
+    try {
+      fetch('/_functions/offers', { credentials: 'omit' }).then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (j) { OFFERS = (j && j.offers) || null; paintOffers(); }).catch(function () {});
+    } catch (e) {}
+    function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return '&#' + c.charCodeAt(0) + ';'; }); }
+    function worth(o) { return o.kind === 'AMOUNT' ? '&pound;' + esc(+o.amount % 1 ? (+o.amount).toFixed(2) : o.amount) + ' off' : esc(o.percent) + '% off'; }
+    function ends(iso) {
+      try { return new Date(iso).toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short', timeZone: 'Europe/London' }); } catch (e) { return ''; }
+    }
+    function paintOffers() {
+      if (!box || !OFFERS) return;
+      var codesEl = document.getElementById('ub-fast-codes'), dealEl = document.getElementById('ub-fast-deal');
+      var first = [], back = [], deal = null;
+      OFFERS.forEach(function (o) {
+        if (o.offerType === 'limited') { if (!deal) deal = o; }
+        else if (o.offerType === 'first') first.push(o);
+        else if (o.offerType === 'returning') back.push(o);
+      });
+      var parts = [];
+      if (first.length) parts.push('First booking: ' + first.map(function (o) { return '<b>' + worth(o) + '</b> <span class="ub-code">' + esc(o.code) + '</span>'; }).join(' or '));
+      if (back.length) parts.push('Coming back? ' + back.map(function (o) { return '<b>' + worth(o) + '</b> <span class="ub-code">' + esc(o.code) + '</span>'; }).join(' or '));
+      if (codesEl && parts.length) codesEl.innerHTML = '&#127873; ' + parts.join(' &middot; ');
+      if (dealEl && deal) {
+        dealEl.innerHTML = (deal.image ? '<img src="' + esc(/static\.wixstatic\.com\/media\/[^\/]+$/.test(deal.image) ? deal.image + '/v1/fill/w_128,h_128,q_80/offer.jpg' : deal.image) + '" alt="" width="64" height="64">' : '') +
+          '<span class="ub-dt"><b>' + esc(deal.label || 'Limited offer') + ' &ndash; ' + worth(deal) + '</b> with code <span class="ub-code">' + esc(deal.code) + '</span>' +
+          (deal.endsAt ? '<span class="ub-ds">Ends ' + esc(ends(deal.endsAt)) + ' &middot; one code per booking</span>' : '<span class="ub-ds">One code per booking</span>') + '</span>';
+        dealEl.hidden = false;
+      }
+    }
+    function mount() {
+      if (!SHOW_CARD) { done = true; return true; }
+      if (box || done) return true;
+      if (!document.body) return false;
+      if (ready()) { done = true; return true; }   /* warm cache: form already there, no card */
+      box = document.createElement('div');
+      box.id = 'ub-fast';
+      box.setAttribute('role', 'region');
+      box.setAttribute('aria-label', 'Quick start');
+      box.innerHTML = html;
+      box.addEventListener('click', function (ev) {
+        var t = ev.target && ev.target.closest ? ev.target.closest('button[data-svc]') : null;
+        if (t) { ev.preventDefault(); choose(t.getAttribute('data-svc')); }
+      });
+      document.body.insertBefore(box, document.body.firstChild);
+      paintOffers();
+      return true;
+    }
+    /* Mount the moment <body> exists (this runs in <head>). */
+    if (!mount()) {
+      var mo = new MutationObserver(function () { if (mount()) mo.disconnect(); });
+      mo.observe(document.documentElement, { childList: true, subtree: true });
+      document.addEventListener('DOMContentLoaded', function () { mount(); mo.disconnect(); });
+    }
+    (function tick() {
+      if (done && !box) return;
+      if (box && ready()) {
+        /* Let the form finish its first draw, then open the chosen tab. */
+        if (wanted) { var w = wanted; setTimeout(function () { openTab(w); }, 300); }
+        hide(); return;
+      }
+      if (box && !onHome()) { hide(); return; }
+      if (box && Date.now() - t0 > 20000) {
+        /* The form never appeared: reload Home on the chosen tab (still Home). */
+        if (wanted) { location.href = '/?tab=' + wanted; return; }
+        hide(); return;
+      }
+      if (!box && Date.now() - t0 > 20000) { done = true; return; }
+      setTimeout(tick, 150);
+    })();
+  } catch (e) { var x = document.getElementById('ub-fast'); if (x) x.style.display = 'none'; }
+})();
+</script>
