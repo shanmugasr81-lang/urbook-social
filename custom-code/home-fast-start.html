@@ -6,9 +6,7 @@
 #ub-fast{position:fixed;left:0;right:0;top:84px;z-index:2147483001;display:flex;justify-content:center;padding:0 16px;
   font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;transition:opacity .35s ease;pointer-events:none;visibility:visible !important}
 #ub-fast.ub-gone{opacity:0}
-/* 22 Oct 2026 21:55 P1 FIX: #ub-fast has visibility:visible !important, so the inline visibility:hidden set on fade
-   never applied and the invisible card (.ub-card pointer-events:auto) sat over the search tabs and swallowed every click.
-   The faded card is now click-through at once and fully hidden after the fade (classes, not inline style). */
+/* 22 Oct 2026 21:55 P1 FIX: #ub-fast has visibility:visible !important, so the inline visibility:hidden set … */
 #ub-fast.ub-gone,#ub-fast.ub-gone *{pointer-events:none !important}
 #ub-fast.ub-hidden,#ub-fast.ub-hidden *{visibility:hidden !important;pointer-events:none !important}
 #ub-fast .ub-card{pointer-events:auto;width:100%;max-width:640px;background:#0E2A47;color:#fff;border:1px solid #17395C;
@@ -28,15 +26,15 @@
 #ub-fast .ub-code{display:inline-block;background:#F5821F;color:#0E2A47;font-weight:800;border-radius:6px;padding:0 7px;margin:0 2px;letter-spacing:.02em}
 #ub-fast .ub-deal{display:flex;align-items:center;gap:12px;margin:14px 0 0;padding:10px 12px;border-radius:12px;background:rgba(255,176,32,.12);border:1px solid rgba(255,176,32,.45);text-align:left}
 #ub-fast .ub-deal[hidden]{display:none}
-#ub-fast .ub-deal img{width:64px;height:64px;object-fit:cover;border-radius:10px;flex:0 0 auto;background:#17395C}
-#ub-fast .ub-deal .ub-dt{font-size:15px;line-height:1.35;color:#fff}
+#ub-fast .ub-deal img{width:150px;height:112px;object-fit:cover;border-radius:10px;flex:0 0 auto;background:#17395C}
+#ub-fast .ub-amz{display:inline-block;margin:0 0 4px;padding:2px 10px;border-radius:999px;background:#FFB020;color:#0E2A47;font-size:13px;font-weight:800;letter-spacing:.3px}
+#ub-fast .ub-um{display:block;margin-top:4px}
+#ub-fast .ub-deal .ub-dt{font-size:16px;line-height:1.35;color:#fff}
 #ub-fast .ub-deal .ub-dt b{color:#FFB020}
 #ub-fast .ub-deal .ub-ds{display:block;font-size:13px;color:#C9D6E3}
-@media (min-width:980px){#ub-fast .ub-codes{text-align:left;font-size:16px;max-width:860px}#ub-fast .ub-deal{max-width:860px}}
+@media (min-width:980px){#ub-fast .ub-codes{text-align:left;font-size:16px;max-width:860px}#ub-fast .ub-deal{max-width:860px}#ub-fast .ub-deal img{width:192px;height:128px}#ub-fast .ub-deal .ub-dt{font-size:18px}}
 @media (min-width:700px){#ub-fast{top:110px}#ub-fast .ub-btns{grid-template-columns:1fr 1fr 1fr}#ub-fast .ub-h{font-size:28px}}
-/* 21 Oct 2026 – DESKTOP FIRST SCREEN (PageSpeed): on laptops the card is the first screen itself – a wide hero
-   with a big heading, the intro and the three product buttons, drawn at first paint from this Head snippet,
-   sitting over the space held for the search bar until the full search form is ready (then it fades). */
+/* 21 Oct 2026 – DESKTOP FIRST SCREEN (PageSpeed): on laptops the card is the first screen itself – a wide … */
 @media (min-width:980px){
   #ub-fast{top:104px;padding:0 24px}
   #ub-fast .ub-card{max-width:1100px;padding:44px 48px 40px;border-radius:20px;
@@ -48,9 +46,7 @@
   #ub-fast .ub-note{text-align:left;font-size:14px}
 }
 /* 21 Oct 2026 (PageSpeed, layout shift 0.657 on desktop): hold the space for the search bar and the Home
-   sections until their scripts arrive, keep the Home sections hidden until the search bar above them is drawn,
-   and keep the footer hidden until the Home sections are in – nothing visible moves. Rules apply only while the
-   elements are not yet defined, so they switch themselves off. */
+   … */
 ezy-search-bar:not(:defined){display:block;min-height:640px}
 @media (max-width:767px){ezy-search-bar:not(:defined){min-height:560px}}
 ezy-home-sections:not(:defined){display:block;min-height:150vh}
@@ -88,7 +84,7 @@ html.ub-hs-wait #SITE_FOOTER{visibility:hidden}  /* footer waits for the Home se
           '<button type="button" class="ub-alt" data-svc="holiday">Holiday packages</button>' +
         '</div>' +
         '<div class="ub-deal" id="ub-fast-deal" hidden></div>' +
-        '<p class="ub-codes" id="ub-fast-codes">&#127873; First booking: <b>&pound;10 off</b> <span class="ub-code">URFIRST10</span> or <b>10% off</b> <span class="ub-code">WELCOMEUR</span> &middot; Coming back? <b>&pound;5 off</b> <span class="ub-code">URBACK5</span></p>' +
+        '<p class="ub-codes" id="ub-fast-codes">&#127873; First booking: <b>&pound;10 off</b> <span class="ub-code">URFIRST10</span> or <b>10% off</b> <span class="ub-code">WELCOMEUR</span> &middot; Coming back? <b>&pound;5 off</b> <span class="ub-code">URBACK5</span><span class="ub-um">&#10133; <b>UrMoney</b>: &pound;5 into your wallet on every booking (signed in) &ndash; extra, use it any time on top of any code</span></p>' +
         '<p class="ub-note" id="ub-fast-note">Pick one — the full search is loading…</p>' +
       '</div>';
 
@@ -101,7 +97,7 @@ html.ub-hs-wait #SITE_FOOTER{visibility:hidden}  /* footer waits for the Home se
       var b2 = box; box = null;
       b2.className = 'ub-gone';
       /* 22 Oct 2026 speed fix: faded and KEPT, not removed - Lighthouse drops a removed element as LCP, so the
-         0.6 s card paint was lost and the LCP fell to the Home sections heading at ~2.3 s (desktop 85-88). */
+    … */
       setTimeout(function () { b2.className = 'ub-gone ub-hidden'; b2.setAttribute('aria-hidden', 'true'); }, 400);
     }
     function bar() {
@@ -132,8 +128,7 @@ html.ub-hs-wait #SITE_FOOTER{visibility:hidden}  /* footer waits for the Home se
       if (ready()) { openTab(svc); hide(); }
     }
     /* 28 Oct 2026: live offers. The card starts with the built-in codes line above; /_functions/offers
-       (backend/discount-engine.jsw listLiveOffers, cached 5 min) replaces it with today's codes and adds
-       a tile for a timed offer (picture, % off, code, end date). A failed call leaves the built-in line. */
+       … */
     var OFFERS = null;
     try {
       fetch('/_functions/offers', { credentials: 'omit' }).then(function (r) { return r.ok ? r.json() : null; })
@@ -156,11 +151,11 @@ html.ub-hs-wait #SITE_FOOTER{visibility:hidden}  /* footer waits for the Home se
       var parts = [];
       if (first.length) parts.push('First booking: ' + first.map(function (o) { return '<b>' + worth(o) + '</b> <span class="ub-code">' + esc(o.code) + '</span>'; }).join(' or '));
       if (back.length) parts.push('Coming back? ' + back.map(function (o) { return '<b>' + worth(o) + '</b> <span class="ub-code">' + esc(o.code) + '</span>'; }).join(' or '));
-      if (codesEl && parts.length) codesEl.innerHTML = '&#127873; ' + parts.join(' &middot; ');
+      if (codesEl && parts.length) codesEl.innerHTML = '&#127873; ' + parts.join(' &middot; ') + '<span class="ub-um">&#10133; <b>UrMoney</b>: &pound;5 into your wallet on every booking (signed in) &ndash; extra, use it any time on top of any code</span>';
       if (dealEl && deal) {
-        dealEl.innerHTML = (deal.image ? '<img src="' + esc(/static\.wixstatic\.com\/media\/[^\/]+$/.test(deal.image) ? deal.image + '/v1/fill/w_128,h_128,q_80/offer.jpg' : deal.image) + '" alt="" width="64" height="64">' : '') +
-          '<span class="ub-dt"><b>' + esc(deal.label || 'Limited offer') + ' &ndash; ' + worth(deal) + '</b> with code <span class="ub-code">' + esc(deal.code) + '</span>' +
-          (deal.endsAt ? '<span class="ub-ds">Ends ' + esc(ends(deal.endsAt)) + ' &middot; one code per booking</span>' : '<span class="ub-ds">One code per booking</span>') + '</span>';
+        dealEl.innerHTML = (deal.image ? '<img src="' + esc(/static\.wixstatic\.com\/media\/[^\/]+$/.test(deal.image) ? deal.image + '/v1/fill/w_384,h_256,q_85/offer.jpg' : deal.image) + '" alt="" width="192" height="128">' : '') +
+          '<span class="ub-dt"><span class="ub-amz">&#127881; Amazing offer</span><br><b>' + esc(deal.label || 'Limited offer') + ' &ndash; ' + worth(deal) + '</b> with code <span class="ub-code">' + esc(deal.code) + '</span>' +
+          (deal.endsAt ? '<span class="ub-ds">Ends ' + esc(ends(deal.endsAt)) + ' &middot; one code per booking &middot; + UrMoney on top</span>' : '<span class="ub-ds">One code per booking &middot; + UrMoney on top</span>') + '</span>';
         dealEl.hidden = false;
       }
     }
