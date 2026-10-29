@@ -105,7 +105,8 @@ outro_inner = (f'<div style="width:{W}px;height:{H}px;display:flex;align-items:c
                f'<span class="b" style="font-weight:800;font-size:88px;line-height:1">www.urbook.co.uk</span>'
                f'<span style="font-size:40px;color:{PALE}">Parking · Transfers · Holidays — one booking place</span>'
                f'<div style="background:{SUN2};color:{INK};border-radius:28px;padding:30px 48px;display:flex;flex-direction:column;gap:6px;align-self:flex-start">'
-               f'<span class="b" style="font-weight:800;font-size:96px;line-height:1">URFIRST10</span><span style="font-size:36px;font-weight:700">£10 off your first booking</span></div>'
+               f'<span class="b" style="font-weight:800;font-size:96px;line-height:1">URFIRST10</span><span style="font-size:36px;font-weight:700">£10 off your first booking</span>'
+               + (f'<span style="font-size:32px;font-weight:700;margin-top:10px">{E(S["outro_extra"])}</span>' if S.get("outro_extra") else '') + '</div>'
                + (f'<span style="font-size:36px;line-height:1.3;max-width:900px">💬 {E(q)}</span>' if q else "")
                + '</div></div>')
 TOTAL = len(slides) + 1

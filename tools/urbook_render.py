@@ -93,7 +93,8 @@ pages = {
         f'<span class="b" style="font-weight:800;font-size:76px">www.urbook.co.uk</span>'
         f'<span style="font-size:38px;color:{PALE}">Parking · Transfers · Holidays — one booking place</span>'
         f'<div style="background:{SUN2};color:{INK};border-radius:28px;padding:34px 56px;display:flex;flex-direction:column;gap:6px">'
-        f'<span class="b" style="font-weight:800;font-size:92px;line-height:1">URFIRST10</span><span style="font-size:34px;font-weight:700">£10 off your first booking</span></div></div>'),
+        f'<span class="b" style="font-weight:800;font-size:92px;line-height:1">URFIRST10</span><span style="font-size:34px;font-weight:700">£10 off your first booking</span>'
+        + (f'<span style="font-size:30px;font-weight:700;margin-top:10px">{E(S["outro_extra"])}</span>' if S.get("outro_extra") else '') + '</div></div>'),
 }
 
 with sync_playwright() as p:
