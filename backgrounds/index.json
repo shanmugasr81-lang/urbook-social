@@ -1,1160 +1,1970 @@
 {
-  "updated": "2026-10-16",
-  "note": "Background photos for social posts. All checked: no recognisable faces, no readable number plates, no other company's logo as the subject. Pick by category; rotate via Wix SocialMediaLog.",
-  "items": [
-    {
-      "file": "backgrounds/airport/pexels-13716228.jpg",
-      "category": "airport",
-      "subject": "modern glass airport terminal",
-      "source": "Pexels",
-      "sourceUrl": "https://www.pexels.com/photo/13716228/",
-      "licence": "Pexels License (free commercial use, no attribution required)",
-      "faces": false,
-      "size": "2400x1800"
-    },
-    {
-      "file": "backgrounds/airport/pexels-1381416.jpg",
-      "category": "airport",
-      "subject": "airport apron with baggage tug and terminal",
-      "source": "Pexels",
-      "sourceUrl": "https://www.pexels.com/photo/1381416/",
-      "licence": "Pexels License (free commercial use, no attribution required)",
-      "faces": false,
-      "size": "2400x1600"
-    },
-    {
-      "file": "backgrounds/airport/pexels-16562841.jpg",
-      "category": "airport",
-      "subject": "jet aircraft at a terminal gate",
-      "source": "Pexels",
-      "sourceUrl": "https://www.pexels.com/photo/16562841/",
-      "licence": "Pexels License (free commercial use, no attribution required)",
-      "faces": false,
-      "size": "2400x1601"
-    },
-    {
-      "file": "backgrounds/airport/pexels-2833379.jpg",
-      "category": "airport",
-      "subject": "flight departures board",
-      "source": "Pexels",
-      "sourceUrl": "https://www.pexels.com/photo/2833379/",
-      "licence": "Pexels License (free commercial use, no attribution required)",
-      "faces": false,
-      "size": "2400x1600"
-    },
-    {
-      "file": "backgrounds/flight/pexels-18090300.jpg",
-      "category": "flight",
-      "subject": "aircraft seen through a plane window",
-      "source": "Pexels",
-      "sourceUrl": "https://www.pexels.com/photo/18090300/",
-      "licence": "Pexels License (free commercial use, no attribution required)",
-      "faces": false,
-      "size": "2400x1600"
-    },
-    {
-      "file": "backgrounds/flight/pexels-1973183.jpg",
-      "category": "flight",
-      "subject": "plane wing over snowy mountains through the window",
-      "source": "Pexels",
-      "sourceUrl": "https://www.pexels.com/photo/1973183/",
-      "licence": "Pexels License (free commercial use, no attribution required)",
-      "faces": false,
-      "size": "2400x1600"
-    },
-    {
-      "file": "backgrounds/flight/pexels-33976726.jpg",
-      "category": "flight",
-      "subject": "plane wing above the clouds",
-      "source": "Pexels",
-      "sourceUrl": "https://www.pexels.com/photo/33976726/",
-      "licence": "Pexels License (free commercial use, no attribution required)",
-      "faces": false,
-      "size": "2400x1611"
-    },
-    {
-      "file": "backgrounds/flight/pexels-3912838.jpg",
-      "category": "flight",
-      "subject": "airliner in a clear sky",
-      "source": "Pexels",
-      "sourceUrl": "https://www.pexels.com/photo/3912838/",
-      "licence": "Pexels License (free commercial use, no attribution required)",
-      "faces": false,
-      "size": "2400x1600"
-    },
-    {
-      "file": "backgrounds/flight/pexels-735236.jpg",
-      "category": "flight",
-      "subject": "sunset through a plane window",
-      "source": "Pexels",
-      "sourceUrl": "https://www.pexels.com/photo/735236/",
-      "licence": "Pexels License (free commercial use, no attribution required)",
-      "faces": false,
-      "size": "2400x1600"
-    },
-    {
-      "file": "backgrounds/flight/pexels-9129698.jpg",
-      "category": "flight",
-      "subject": "wide-body airliner taking off",
-      "source": "Pexels",
-      "sourceUrl": "https://www.pexels.com/photo/9129698/",
-      "licence": "Pexels License (free commercial use, no attribution required)",
-      "faces": false,
-      "size": "2400x1600"
-    },
-    {
-      "file": "backgrounds/parking/pexels-15216662.jpg",
-      "category": "parking",
-      "subject": "multi-storey car park with parked cars",
-      "source": "Pexels",
-      "sourceUrl": "https://www.pexels.com/photo/15216662/",
-      "licence": "Pexels License (free commercial use, no attribution required)",
-      "faces": false,
-      "size": "2400x1600"
-    },
-    {
-      "file": "backgrounds/parking/pexels-16896042.jpg",
-      "category": "parking",
-      "subject": "open car park at night under lights",
-      "source": "Pexels",
-      "sourceUrl": "https://www.pexels.com/photo/16896042/",
-      "licence": "Pexels License (free commercial use, no attribution required)",
-      "faces": false,
-      "size": "2400x1600"
-    },
-    {
-      "file": "backgrounds/parking/pexels-17051849.jpg",
-      "category": "parking",
-      "subject": "large airport-style surface car park from above",
-      "source": "Pexels",
-      "sourceUrl": "https://www.pexels.com/photo/17051849/",
-      "licence": "Pexels License (free commercial use, no attribution required)",
-      "faces": false,
-      "size": "2400x1600"
-    },
-    {
-      "file": "backgrounds/parking/pexels-17580917.jpg",
-      "category": "parking",
-      "subject": "covered car park deck, black and white",
-      "source": "Pexels",
-      "sourceUrl": "https://www.pexels.com/photo/17580917/",
-      "licence": "Pexels License (free commercial use, no attribution required)",
-      "faces": false,
-      "size": "2400x1602"
-    },
-    {
-      "file": "backgrounds/parking/pexels-18344080.jpg",
-      "category": "parking",
-      "subject": "bright underground car park",
-      "source": "Pexels",
-      "sourceUrl": "https://www.pexels.com/photo/18344080/",
-      "licence": "Pexels License (free commercial use, no attribution required)",
-      "faces": false,
-      "size": "2400x1601"
-    },
-    {
-      "file": "backgrounds/parking/pexels-19184902.jpg",
-      "category": "parking",
-      "subject": "aerial view of a multi-storey car park in Luton, black and white",
-      "source": "Pexels",
-      "sourceUrl": "https://www.pexels.com/photo/19184902/",
-      "licence": "Pexels License (free commercial use, no attribution required)",
-      "faces": false,
-      "size": "2400x1350"
-    },
-    {
-      "file": "backgrounds/transfer/pexels-12689746.jpg",
-      "category": "transfer",
-      "subject": "taxi driving through a city at night",
-      "source": "Pexels",
-      "sourceUrl": "https://www.pexels.com/photo/12689746/",
-      "licence": "Pexels License (free commercial use, no attribution required)",
-      "faces": false,
-      "size": "2400x1600"
-    },
-    {
-      "file": "backgrounds/transfer/pexels-17455628.jpg",
-      "category": "transfer",
-      "subject": "luxury car / limousine interior",
-      "source": "Pexels",
-      "sourceUrl": "https://www.pexels.com/photo/17455628/",
-      "licence": "Pexels License (free commercial use, no attribution required)",
-      "faces": false,
-      "size": "2400x1600"
-    },
-    {
-      "file": "backgrounds/transfer/pexels-39075475.jpg",
-      "category": "transfer",
-      "subject": "white minibus at an airport drop-off",
-      "source": "Pexels",
-      "sourceUrl": "https://www.pexels.com/photo/39075475/",
-      "licence": "Pexels License (free commercial use, no attribution required)",
-      "faces": false,
-      "size": "2400x1600"
-    },
-    {
-      "file": "transfers/photos/Transfers7-hd.jpg",
-      "category": "transfer",
-      "subject": "black executive car outside a hotel",
-      "source": "Shan (urbook owner)",
-      "licence": "owned by urbook",
-      "faces": false,
-      "size": "1923x1080"
-    },
-    {
-      "file": "backgrounds/holiday/unsplash-3no88nSvK88.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "three snow-capped Himalayan peaks at dusk",
-      "source": "Unsplash",
-      "sourceUrl": "https://unsplash.com/photos/3no88nSvK88",
-      "downloadUrl": "https://images.unsplash.com/photo-1578589591337-864142c03335?w=2000&q=85&fm=jpg",
-      "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
-      "faces": false,
-      "usedOn": "urbook holiday result cards (Holidays.heroImage)"
-    },
-    {
-      "file": "backgrounds/holiday/unsplash-5MYcazoWGLI.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "sun behind a snow peak, blue sky",
-      "source": "Unsplash",
-      "sourceUrl": "https://unsplash.com/photos/5MYcazoWGLI",
-      "downloadUrl": "https://images.unsplash.com/photo-1624635833943-6da00429e4bd?w=2000&q=85&fm=jpg",
-      "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
-      "faces": false,
-      "usedOn": "urbook holiday result cards (Holidays.heroImage)"
-    },
-    {
-      "file": "backgrounds/holiday/unsplash-WMpyRPaS7DQ.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "Himalayan peaks above a sea of clouds",
-      "source": "Unsplash",
-      "sourceUrl": "https://unsplash.com/photos/WMpyRPaS7DQ",
-      "downloadUrl": "https://images.unsplash.com/photo-1589800463007-3be49fe18b92?w=2000&q=85&fm=jpg",
-      "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
-      "faces": false,
-      "usedOn": "urbook holiday result cards (Holidays.heroImage)"
-    },
-    {
-      "file": "backgrounds/holiday/unsplash-PEcGKf1Y0ak.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "misty forest ridge in the foothills",
-      "source": "Unsplash",
-      "sourceUrl": "https://unsplash.com/photos/PEcGKf1Y0ak",
-      "downloadUrl": "https://images.unsplash.com/photo-1674763766909-fecc13bc7a8a?w=2000&q=85&fm=jpg",
-      "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
-      "faces": false,
-      "usedOn": "urbook holiday result cards (Holidays.heroImage)"
-    },
-    {
-      "file": "backgrounds/holiday/unsplash-TLk6IjlaoYw.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "snowy Annapurna ridges",
-      "source": "Unsplash",
-      "sourceUrl": "https://unsplash.com/photos/TLk6IjlaoYw",
-      "downloadUrl": "https://images.unsplash.com/photo-1681018756175-da11bf6f06ac?w=2000&q=85&fm=jpg",
-      "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
-      "faces": false,
-      "usedOn": "urbook holiday result cards (Holidays.heroImage)"
-    },
-    {
-      "file": "backgrounds/holiday/unsplash-B6HS8aEEEYM.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "mountain lodge below Machapuchare",
-      "source": "Unsplash",
-      "sourceUrl": "https://unsplash.com/photos/B6HS8aEEEYM",
-      "downloadUrl": "https://images.unsplash.com/photo-1681018754686-89390ef742f3?w=2000&q=85&fm=jpg",
-      "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
-      "faces": false,
-      "usedOn": "urbook holiday result cards (Holidays.heroImage)"
-    },
-    {
-      "file": "backgrounds/holiday/unsplash-C3YrTbvNcho.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "Machapuchare (Fishtail) peak",
-      "source": "Unsplash",
-      "sourceUrl": "https://unsplash.com/photos/C3YrTbvNcho",
-      "downloadUrl": "https://images.unsplash.com/photo-1681018755464-1d3495867767?w=2000&q=85&fm=jpg",
-      "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
-      "faces": false,
-      "usedOn": "urbook holiday result cards (Holidays.heroImage)"
-    },
-    {
-      "file": "backgrounds/holiday/unsplash-Vw8Yep45WSU.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "Himalayan range at dusk",
-      "source": "Unsplash",
-      "sourceUrl": "https://unsplash.com/photos/Vw8Yep45WSU",
-      "downloadUrl": "https://images.unsplash.com/photo-1645788421204-0e4eb1d2a518?w=2000&q=85&fm=jpg",
-      "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
-      "faces": false,
-      "usedOn": "urbook holiday result cards (Holidays.heroImage)"
-    },
-    {
-      "file": "backgrounds/holiday/unsplash-mpYKQK3GzSE.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "prayer wheels and prayer flags",
-      "source": "Unsplash",
-      "sourceUrl": "https://unsplash.com/photos/mpYKQK3GzSE",
-      "downloadUrl": "https://images.unsplash.com/photo-1526712318848-5f38e2740d44?w=2000&q=85&fm=jpg",
-      "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
-      "faces": false,
-      "usedOn": "urbook holiday result cards (Holidays.heroImage)"
-    },
-    {
-      "file": "backgrounds/holiday/unsplash-1-FJafjsBEg.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "Swayambhunath stupa, Kathmandu",
-      "source": "Unsplash",
-      "sourceUrl": "https://unsplash.com/photos/1-FJafjsBEg",
-      "downloadUrl": "https://images.unsplash.com/photo-1662721737580-b1558a41a49a?w=2000&q=85&fm=jpg",
-      "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
-      "faces": false,
-      "usedOn": "urbook holiday result cards (Holidays.heroImage)"
-    },
-    {
-      "file": "backgrounds/holiday/unsplash-I5wHnZqBiQI.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "lake sunset below the mountains",
-      "source": "Unsplash",
-      "sourceUrl": "https://unsplash.com/photos/I5wHnZqBiQI",
-      "downloadUrl": "https://images.unsplash.com/photo-1647679208171-85d25dcc22c2?w=2000&q=85&fm=jpg",
-      "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
-      "faces": false,
-      "usedOn": "urbook holiday result cards (Holidays.heroImage)"
-    },
-    {
-      "file": "backgrounds/holiday/unsplash--sz-PCtnmFI.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "hill village with Himalayan views",
-      "source": "Unsplash",
-      "sourceUrl": "https://unsplash.com/photos/-sz-PCtnmFI",
-      "downloadUrl": "https://images.unsplash.com/photo-1718179634911-8551f8b0cccf?w=2000&q=85&fm=jpg",
-      "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
-      "faces": false,
-      "usedOn": "urbook holiday result cards (Holidays.heroImage)"
-    },
-    {
-      "file": "backgrounds/holiday/unsplash-WhZTCXud5Xc.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "green valley with snow peaks",
-      "source": "Unsplash",
-      "sourceUrl": "https://unsplash.com/photos/WhZTCXud5Xc",
-      "downloadUrl": "https://images.unsplash.com/photo-1636513988093-126e51dee32d?w=2000&q=85&fm=jpg",
-      "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
-      "faces": false,
-      "usedOn": "urbook holiday result cards (Holidays.heroImage)"
-    },
-    {
-      "file": "backgrounds/holiday/unsplash-XWQK-9p53ts.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "jungle track in Chitwan",
-      "source": "Unsplash",
-      "sourceUrl": "https://unsplash.com/photos/XWQK-9p53ts",
-      "downloadUrl": "https://images.unsplash.com/photo-1647679147029-508c62f35c33?w=2000&q=85&fm=jpg",
-      "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
-      "faces": false,
-      "usedOn": "urbook holiday result cards (Holidays.heroImage)"
-    },
-    {
-      "file": "backgrounds/holiday/unsplash-TXBwxc836Bc.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "golden lake framed by trees",
-      "source": "Unsplash",
-      "sourceUrl": "https://unsplash.com/photos/TXBwxc836Bc",
-      "downloadUrl": "https://images.unsplash.com/photo-1691885935145-8f72e9ebb3a9?w=2000&q=85&fm=jpg",
-      "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
-      "faces": false,
-      "usedOn": "urbook holiday result cards (Holidays.heroImage)"
-    },
-    {
-      "file": "backgrounds/holiday/unsplash-DhglXCVqkXY.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "golden stupa with prayer flags",
-      "source": "Unsplash",
-      "sourceUrl": "https://unsplash.com/photos/DhglXCVqkXY",
-      "downloadUrl": "https://images.unsplash.com/photo-1572253765558-ed6413a68da5?w=2000&q=85&fm=jpg",
-      "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
-      "faces": false,
-      "usedOn": "urbook holiday result cards (Holidays.heroImage)"
-    },
-    {
-      "file": "backgrounds/holiday/unsplash-_rHplGon_uU.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "one-horned rhino in Chitwan grass",
-      "source": "Unsplash",
-      "sourceUrl": "https://unsplash.com/photos/_rHplGon_uU",
-      "downloadUrl": "https://images.unsplash.com/photo-1534215782964-d58601aa091c?w=2000&q=85&fm=jpg",
-      "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
-      "faces": false,
-      "usedOn": "urbook holiday result cards (Holidays.heroImage)"
-    },
-    {
-      "file": "backgrounds/holiday/unsplash-zHdZLIQnqOE.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "carved temple front, Kathmandu valley",
-      "source": "Unsplash",
-      "sourceUrl": "https://unsplash.com/photos/zHdZLIQnqOE",
-      "downloadUrl": "https://images.unsplash.com/photo-1665394183024-7a95b156d427?w=2000&q=85&fm=jpg",
-      "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
-      "faces": false,
-      "usedOn": "urbook holiday result cards (Holidays.heroImage)"
-    },
-    {
-      "file": "backgrounds/holiday/unsplash-etFzKUi9L4U.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "yellow boats on Phewa Lake, Pokhara",
-      "source": "Unsplash",
-      "sourceUrl": "https://unsplash.com/photos/etFzKUi9L4U",
-      "downloadUrl": "https://images.unsplash.com/photo-1691885770413-7cba2e97c779?w=2000&q=85&fm=jpg",
-      "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
-      "faces": false,
-      "usedOn": "urbook holiday result cards (Holidays.heroImage)"
-    },
-    {
-      "file": "backgrounds/holiday/unsplash-ORaIH_SdI-k.jpg",
-      "category": "holiday",
-      "region": "Bhutan",
-      "subject": "dzong fortress in a green valley",
-      "source": "Unsplash",
-      "sourceUrl": "https://unsplash.com/photos/ORaIH_SdI-k",
-      "downloadUrl": "https://images.unsplash.com/photo-1760286045085-8bbfd0d077bf?w=2000&q=85&fm=jpg",
-      "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
-      "faces": false,
-      "usedOn": "urbook holiday result cards (Holidays.heroImage)"
-    },
-    {
-      "file": "backgrounds/holiday/unsplash-smUAKwMT8XA.jpg",
-      "category": "holiday",
-      "region": "Sri Lanka",
-      "subject": "Sigiriya rock fortress from the air",
-      "source": "Unsplash",
-      "sourceUrl": "https://unsplash.com/photos/smUAKwMT8XA",
-      "downloadUrl": "https://images.unsplash.com/photo-1612862862126-865765df2ded?w=2000&q=85&fm=jpg",
-      "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
-      "faces": false,
-      "usedOn": "urbook holiday result cards (Holidays.heroImage)"
-    },
-    {
-      "file": "backgrounds/holiday/unsplash-jpTT_SAU034.jpg",
-      "category": "holiday",
-      "region": "Sri Lanka",
-      "subject": "blue train on the Nine Arches Bridge, Ella",
-      "source": "Unsplash",
-      "sourceUrl": "https://unsplash.com/photos/jpTT_SAU034",
-      "downloadUrl": "https://images.unsplash.com/photo-1566296314736-6eaac1ca0cb9?w=2000&q=85&fm=jpg",
-      "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
-      "faces": false,
-      "usedOn": "urbook holiday result cards (Holidays.heroImage)"
-    },
-    {
-      "file": "backgrounds/holiday/unsplash-iduEaeBB_rQ.jpg",
-      "category": "holiday",
-      "region": "Sri Lanka",
-      "subject": "palm trees on a south coast beach",
-      "source": "Unsplash",
-      "sourceUrl": "https://unsplash.com/photos/iduEaeBB_rQ",
-      "downloadUrl": "https://images.unsplash.com/photo-1580910527739-556eb89f9d65?w=2000&q=85&fm=jpg",
-      "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
-      "faces": false,
-      "usedOn": "urbook holiday result cards (Holidays.heroImage)"
-    },
-    {
-      "file": "backgrounds/holiday/unsplash-iZo_xVpa0HI.jpg",
-      "category": "holiday",
-      "region": "Sri Lanka",
-      "subject": "leopard on a tree stump, Yala",
-      "source": "Unsplash",
-      "sourceUrl": "https://unsplash.com/photos/iZo_xVpa0HI",
-      "downloadUrl": "https://images.unsplash.com/photo-1728455470905-156f4278056a?w=2000&q=85&fm=jpg",
-      "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
-      "faces": false,
-      "usedOn": "urbook holiday result cards (Holidays.heroImage)"
-    },
-    {
-      "file": "backgrounds/holiday/unsplash-ii0oWs5abCo.jpg",
-      "category": "holiday",
-      "region": "South India",
-      "subject": "houseboat on the Alappuzha backwaters, Kerala",
-      "source": "Unsplash",
-      "sourceUrl": "https://unsplash.com/photos/ii0oWs5abCo",
-      "downloadUrl": "https://images.unsplash.com/photo-1593693411515-c20261bcad6e?w=2000&q=85&fm=jpg",
-      "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
-      "faces": false,
-      "usedOn": "urbook holiday result cards (Holidays.heroImage)"
-    },
-    {
-      "file": "backgrounds/occasion/unsplash-ed5KySP1tfQ.jpg",
-      "category": "occasion",
-      "occasion": "Halloween",
-      "subject": "two glowing jack-o'-lanterns at night",
-      "source": "Unsplash",
-      "sourceUrl": "https://unsplash.com/photos/ed5KySP1tfQ",
-      "downloadUrl": "https://images.unsplash.com/photo-1477516561410-f0b5dd8319e4?w=2000&q=85&fm=jpg",
-      "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
-      "faces": false,
-      "usedOn": "Halloween 2026 marketing email (Campaigns.heroImage)"
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-annapurna-marigolds-panorama-hd.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "marigolds below Annapurna South and Machapuchare",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "2864x1044",
-      "enlarged": true
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-annapurna-trail-suspension-bridge-hd.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "suspension bridge on the Annapurna trail, trekkers from behind",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "1620x2160",
-      "enlarged": true
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-boudhanath-stupa-kathmandu-hd.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "Boudhanath stupa with prayer flags, Kathmandu",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "2000x1600",
-      "enlarged": true
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-ghandruk-slate-roofs-hd.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "slate-roofed Gurung houses, Ghandruk, Annapurna South",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "2400x1800",
-      "enlarged": true
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-ghandruk-village-annapurna-south-hd.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "Ghandruk village below Annapurna South",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "2000x1600",
-      "enlarged": true
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-hill-village-annapurna-south.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "trekking village with blue roofs below Annapurna South",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "1440x1080",
-      "enlarged": false
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-lodge-garden-annapurna-sunrise-hd.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "lodge garden with marigolds, sunrise on Annapurna South and Machapuchare",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "2880x1920",
-      "enlarged": true
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-machapuchare-fishtail-peak-hd.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "Machapuchare (Fishtail) peak, blue sky",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "2880x1920",
-      "enlarged": true
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-phewa-lake-boats-dusk-hd.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "rowing boats on Phewa Lake at dusk, Pokhara",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "2000x1600",
-      "enlarged": true
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-pokhara-phewa-lake-tal-barahi.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "Tal Barahi temple on Phewa Lake, Pokhara, Annapurna range",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "2500x1130",
-      "enlarged": false
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-poon-hill-annapurna-prayer-flags.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "prayer flags below Annapurna South and Hiunchuli, Poon Hill",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "1440x1080",
-      "enlarged": false
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-poon-hill-sunrise-dhaulagiri-hd.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "sunrise over Dhaulagiri from Poon Hill, small crowd from behind",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "2400x1800",
-      "enlarged": true
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-rhododendron-forest-trail.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "stone trail through mossy rhododendron forest, trekkers from behind",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "1440x1080",
-      "enlarged": false
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-snowy-forest-trail-hd.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "snowy forest trail, trekker from behind",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "2000x1600",
-      "enlarged": true
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-village-path-annapurna-machapuchare-hd.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "stone village path with Annapurna South and Machapuchare",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "2250x1200",
-      "enlarged": true
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-everest-lhotse-thamserku-view.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "Thamserku with Everest and Lhotse beyond, Everest region",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "1600x1200",
-      "enlarged": false
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-everest-nuptse-kala-patthar.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "Everest and Nuptse above the Khumbu glacier",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "1600x1200",
-      "enlarged": false
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-annapurna-base-camp-helicopter.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "Annapurna Base Camp lodges and helicopter below Annapurna I",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "1600x1200",
-      "enlarged": false
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-everest-lhotse-ama-dablam-view.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "Everest, Lhotse and Ama Dablam across the Khumbu valley",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "1600x1200",
-      "enlarged": false
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-helicopter-everest-nuptse-close.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "helicopter from behind below Everest and Nuptse",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "1600x1200",
-      "enlarged": false
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-helicopter-below-everest-nuptse.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "helicopter landed below Everest and Nuptse, deep blue sky",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "1600x1200",
-      "enlarged": false
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-helicopter-everest-nuptse-side.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "helicopter side view in front of Everest and Nuptse",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "1600x1200",
-      "enlarged": false
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-helicopter-everest-nuptse-wide.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "helicopter on a snowy ridge, Everest and Nuptse, wide sky",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "1600x1200",
-      "enlarged": false
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-khumbu-glacier-peaks.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "Khumbu glacier and snow peaks, Everest region",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "1600x1200",
-      "enlarged": false
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-gosainkunda-shiva-shrine-helicopter.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "Shiva shrine at Gosainkunda with helicopter, person from behind",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "1600x1200",
-      "enlarged": false
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-everest-nuptse-blue-sky.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "Everest and Nuptse under a clear blue sky",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "1600x1200",
-      "enlarged": false
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-gosainkunda-shrine-trident-helicopter.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "Gosainkunda shrine and trident, helicopter beyond, person from behind",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "1600x1200",
-      "enlarged": false
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-gosainkunda-frozen-lake-sun-halo.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "frozen Gosainkunda lake under a sun halo",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "1600x1200",
-      "enlarged": false
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-gosainkunda-frozen-lake-snow.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "frozen Gosainkunda lake and snowy rocks",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "1600x1200",
-      "enlarged": false
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-helicopter-ama-dablam-snow.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "helicopter on snow below Ama Dablam",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "2576x1450",
-      "enlarged": false,
-      "note": "operator names/logos blurred"
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-helicopter-annapurna-base-camp-snow.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "helicopter at Annapurna Base Camp, Annapurna I behind",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "960x1280",
-      "enlarged": false,
-      "note": "operator names/logos blurred"
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-helicopter-close-snow-peaks.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "helicopter close-up, snow peaks and cloud",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "2016x1512",
-      "enlarged": false,
-      "note": "operator names/logos blurred"
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-helicopter-door-open-valley-sun.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "helicopter door open, Khumbu valley in sun",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "1512x2016",
-      "enlarged": false,
-      "note": "operator names/logos blurred"
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-helicopter-everest-region-landed.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "helicopter landed below Everest-region peaks",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "2576x1932",
-      "enlarged": false,
-      "note": "operator names/logos blurred"
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-helicopter-everest-view-sun-flare.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "helicopter at a viewpoint with Lhotse and Ama Dablam, sun flare",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "1600x1200",
-      "enlarged": false,
-      "note": "operator names/logos blurred"
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-helicopter-from-below-blue-sky.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "helicopter from below, clear blue sky",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "1280x720",
-      "enlarged": false,
-      "note": "operator names/logos blurred"
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-helicopter-gokyo-lake-frozen.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "helicopter by a frozen lake below snow peaks",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "1280x960",
-      "enlarged": false,
-      "note": "operator names/logos blurred"
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-helicopter-gokyo-lake.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "helicopter at a turquoise lake below snow peaks, small figures",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "1040x780",
-      "enlarged": false,
-      "note": "operator names/logos blurred"
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-helicopter-gosainkunda-snow.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "helicopter on snow above Gosainkunda lake",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "1600x1200",
-      "enlarged": false,
-      "note": "operator names/logos blurred"
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-helicopter-khumbu-hover-front.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "helicopter hovering, Khumbu peaks behind",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "1608x2144",
-      "enlarged": false,
-      "note": "operator names/logos blurred"
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-helicopter-khumbu-landing-front.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "helicopter landing in the Khumbu valley",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "1932x2576",
-      "enlarged": false,
-      "note": "operator names/logos blurred"
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-helicopter-manang-valley-low-pass.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "blue helicopter flying low over a river bed",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "2016x1512",
-      "enlarged": false,
-      "note": "operator names/logos blurred"
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-helicopter-manang-valley-takeoff.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "blue helicopter taking off from a river bed",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "2576x1932",
-      "enlarged": false,
-      "note": "operator names/logos blurred"
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-helicopters-lukla-airport.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "two helicopters at Lukla airport, crew in hi-vis from a distance",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "1932x2576",
-      "enlarged": false,
-      "note": "operator names/logos blurred"
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-helicopter-gokyo-lake-silver-hd.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "silver helicopter at Gokyo lake",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "2560x1920",
-      "enlarged": true,
-      "note": "operator names/logos blurred"
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-helicopter-mardi-himal-high-camp-hd.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "helicopter above Mardi Himal High Camp lodge",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "2560x1920",
-      "enlarged": true,
-      "note": "operator names/logos blurred"
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-helicopter-mardi-himal-machapuchare.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "helicopter at Mardi Himal, Machapuchare and trekkers from behind",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "1280x1115",
-      "enlarged": false,
-      "note": "operator names/logos blurred"
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-helicopter-pumori-helipad.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "helicopter on a helipad below Pumori",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "1200x1600",
-      "enlarged": false,
-      "note": "operator names/logos blurred"
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-helicopter-silver-snow-close-hd.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "silver helicopter close-up on snow",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "2560x1920",
-      "enlarged": true,
-      "note": "operator names/logos blurred"
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-helicopter-silver-snowfield-hd.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "silver helicopter in a wide snowfield",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "2560x1920",
-      "enlarged": true,
-      "note": "operator names/logos blurred"
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-helicopter-silver-snowy-summit-hd.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "silver helicopter on a snowy summit above the clouds",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "2560x1920",
-      "enlarged": true,
-      "note": "operator names/logos blurred"
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-helicopter-snow-camp-loading-hd.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "helicopter at a snowy camp, crew loading bags (blurred)",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "1560x2080",
-      "enlarged": true,
-      "note": "operator names/logos blurred"
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-helicopter-snow-sun-beam-hd.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "helicopter on snow, sun beam",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "1920x2560",
-      "enlarged": true,
-      "note": "operator names/logos blurred"
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-helicopter-syangboche-clouds-thamserku-hd.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "helicopter at Syangboche, clouds and Thamserku",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "1560x2080",
-      "enlarged": true,
-      "note": "operator names/logos blurred"
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-helicopters-syangboche-thamserku-kongde-hd.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "helicopters at Syangboche below Kongde",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "1560x2080",
-      "enlarged": true,
-      "note": "operator names/logos blurred"
-    },
-    {
-      "file": "holiday/photos/nepal/nepal-helicopters-two-yellow-grass-hd.jpg",
-      "category": "holiday",
-      "region": "Nepal",
-      "subject": "two helicopters on a grassy slope",
-      "source": "Shan (owner-supplied, 16 Oct 2026)",
-      "licence": "urbook own use",
-      "faces": false,
-      "size": "1920x2560",
-      "enlarged": true,
-      "note": "operator names/logos blurred"
-    }
-  ]
+ "updated": "2026-11-11",
+ "note": "Background photos for social posts. All checked: no recognisable faces, no readable number plates, no other company's logo as the subject. Pick by category; rotate via Wix SocialMediaLog. | 11 Nov 2026 (Shan): backgrounds/holiday/packages/ = the hero photo of every live holiday package (54, UK/Europe/India/Nepal/Sri Lanka); each item links its branded ad image (ads/holidays/branded/) – use for Thursday holiday reels and as the closing card.",
+ "items": [
+  {
+   "file": "backgrounds/airport/pexels-13716228.jpg",
+   "category": "airport",
+   "subject": "modern glass airport terminal",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/13716228/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1800"
+  },
+  {
+   "file": "backgrounds/airport/pexels-1381416.jpg",
+   "category": "airport",
+   "subject": "airport apron with baggage tug and terminal",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/1381416/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1600"
+  },
+  {
+   "file": "backgrounds/airport/pexels-16562841.jpg",
+   "category": "airport",
+   "subject": "jet aircraft at a terminal gate",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/16562841/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1601"
+  },
+  {
+   "file": "backgrounds/airport/pexels-2833379.jpg",
+   "category": "airport",
+   "subject": "flight departures board",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/2833379/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1600"
+  },
+  {
+   "file": "backgrounds/flight/pexels-18090300.jpg",
+   "category": "flight",
+   "subject": "aircraft seen through a plane window",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/18090300/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1600"
+  },
+  {
+   "file": "backgrounds/flight/pexels-1973183.jpg",
+   "category": "flight",
+   "subject": "plane wing over snowy mountains through the window",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/1973183/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1600"
+  },
+  {
+   "file": "backgrounds/flight/pexels-33976726.jpg",
+   "category": "flight",
+   "subject": "plane wing above the clouds",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/33976726/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1611"
+  },
+  {
+   "file": "backgrounds/flight/pexels-3912838.jpg",
+   "category": "flight",
+   "subject": "airliner in a clear sky",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/3912838/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1600"
+  },
+  {
+   "file": "backgrounds/flight/pexels-735236.jpg",
+   "category": "flight",
+   "subject": "sunset through a plane window",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/735236/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1600"
+  },
+  {
+   "file": "backgrounds/flight/pexels-9129698.jpg",
+   "category": "flight",
+   "subject": "wide-body airliner taking off",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/9129698/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1600"
+  },
+  {
+   "file": "backgrounds/parking/pexels-15216662.jpg",
+   "category": "parking",
+   "subject": "multi-storey car park with parked cars",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/15216662/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1600"
+  },
+  {
+   "file": "backgrounds/parking/pexels-16896042.jpg",
+   "category": "parking",
+   "subject": "open car park at night under lights",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/16896042/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1600"
+  },
+  {
+   "file": "backgrounds/parking/pexels-17051849.jpg",
+   "category": "parking",
+   "subject": "large airport-style surface car park from above",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/17051849/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1600"
+  },
+  {
+   "file": "backgrounds/parking/pexels-17580917.jpg",
+   "category": "parking",
+   "subject": "covered car park deck, black and white",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/17580917/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1602"
+  },
+  {
+   "file": "backgrounds/parking/pexels-18344080.jpg",
+   "category": "parking",
+   "subject": "bright underground car park",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/18344080/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1601"
+  },
+  {
+   "file": "backgrounds/parking/pexels-19184902.jpg",
+   "category": "parking",
+   "subject": "aerial view of a multi-storey car park in Luton, black and white",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/19184902/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1350"
+  },
+  {
+   "file": "backgrounds/transfer/pexels-12689746.jpg",
+   "category": "transfer",
+   "subject": "taxi driving through a city at night",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/12689746/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1600"
+  },
+  {
+   "file": "backgrounds/transfer/pexels-17455628.jpg",
+   "category": "transfer",
+   "subject": "luxury car / limousine interior",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/17455628/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1600"
+  },
+  {
+   "file": "backgrounds/transfer/pexels-39075475.jpg",
+   "category": "transfer",
+   "subject": "white minibus at an airport drop-off",
+   "source": "Pexels",
+   "sourceUrl": "https://www.pexels.com/photo/39075475/",
+   "licence": "Pexels License (free commercial use, no attribution required)",
+   "faces": false,
+   "size": "2400x1600"
+  },
+  {
+   "file": "transfers/photos/Transfers7-hd.jpg",
+   "category": "transfer",
+   "subject": "black executive car outside a hotel",
+   "source": "Shan (urbook owner)",
+   "licence": "owned by urbook",
+   "faces": false,
+   "size": "1923x1080"
+  },
+  {
+   "file": "backgrounds/holiday/unsplash-3no88nSvK88.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "three snow-capped Himalayan peaks at dusk",
+   "source": "Unsplash",
+   "sourceUrl": "https://unsplash.com/photos/3no88nSvK88",
+   "downloadUrl": "https://images.unsplash.com/photo-1578589591337-864142c03335?w=2000&q=85&fm=jpg",
+   "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
+   "faces": false,
+   "usedOn": "urbook holiday result cards (Holidays.heroImage)"
+  },
+  {
+   "file": "backgrounds/holiday/unsplash-5MYcazoWGLI.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "sun behind a snow peak, blue sky",
+   "source": "Unsplash",
+   "sourceUrl": "https://unsplash.com/photos/5MYcazoWGLI",
+   "downloadUrl": "https://images.unsplash.com/photo-1624635833943-6da00429e4bd?w=2000&q=85&fm=jpg",
+   "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
+   "faces": false,
+   "usedOn": "urbook holiday result cards (Holidays.heroImage)"
+  },
+  {
+   "file": "backgrounds/holiday/unsplash-WMpyRPaS7DQ.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Himalayan peaks above a sea of clouds",
+   "source": "Unsplash",
+   "sourceUrl": "https://unsplash.com/photos/WMpyRPaS7DQ",
+   "downloadUrl": "https://images.unsplash.com/photo-1589800463007-3be49fe18b92?w=2000&q=85&fm=jpg",
+   "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
+   "faces": false,
+   "usedOn": "urbook holiday result cards (Holidays.heroImage)"
+  },
+  {
+   "file": "backgrounds/holiday/unsplash-PEcGKf1Y0ak.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "misty forest ridge in the foothills",
+   "source": "Unsplash",
+   "sourceUrl": "https://unsplash.com/photos/PEcGKf1Y0ak",
+   "downloadUrl": "https://images.unsplash.com/photo-1674763766909-fecc13bc7a8a?w=2000&q=85&fm=jpg",
+   "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
+   "faces": false,
+   "usedOn": "urbook holiday result cards (Holidays.heroImage)"
+  },
+  {
+   "file": "backgrounds/holiday/unsplash-TLk6IjlaoYw.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "snowy Annapurna ridges",
+   "source": "Unsplash",
+   "sourceUrl": "https://unsplash.com/photos/TLk6IjlaoYw",
+   "downloadUrl": "https://images.unsplash.com/photo-1681018756175-da11bf6f06ac?w=2000&q=85&fm=jpg",
+   "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
+   "faces": false,
+   "usedOn": "urbook holiday result cards (Holidays.heroImage)"
+  },
+  {
+   "file": "backgrounds/holiday/unsplash-B6HS8aEEEYM.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "mountain lodge below Machapuchare",
+   "source": "Unsplash",
+   "sourceUrl": "https://unsplash.com/photos/B6HS8aEEEYM",
+   "downloadUrl": "https://images.unsplash.com/photo-1681018754686-89390ef742f3?w=2000&q=85&fm=jpg",
+   "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
+   "faces": false,
+   "usedOn": "urbook holiday result cards (Holidays.heroImage)"
+  },
+  {
+   "file": "backgrounds/holiday/unsplash-C3YrTbvNcho.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Machapuchare (Fishtail) peak",
+   "source": "Unsplash",
+   "sourceUrl": "https://unsplash.com/photos/C3YrTbvNcho",
+   "downloadUrl": "https://images.unsplash.com/photo-1681018755464-1d3495867767?w=2000&q=85&fm=jpg",
+   "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
+   "faces": false,
+   "usedOn": "urbook holiday result cards (Holidays.heroImage)"
+  },
+  {
+   "file": "backgrounds/holiday/unsplash-Vw8Yep45WSU.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Himalayan range at dusk",
+   "source": "Unsplash",
+   "sourceUrl": "https://unsplash.com/photos/Vw8Yep45WSU",
+   "downloadUrl": "https://images.unsplash.com/photo-1645788421204-0e4eb1d2a518?w=2000&q=85&fm=jpg",
+   "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
+   "faces": false,
+   "usedOn": "urbook holiday result cards (Holidays.heroImage)"
+  },
+  {
+   "file": "backgrounds/holiday/unsplash-mpYKQK3GzSE.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "prayer wheels and prayer flags",
+   "source": "Unsplash",
+   "sourceUrl": "https://unsplash.com/photos/mpYKQK3GzSE",
+   "downloadUrl": "https://images.unsplash.com/photo-1526712318848-5f38e2740d44?w=2000&q=85&fm=jpg",
+   "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
+   "faces": false,
+   "usedOn": "urbook holiday result cards (Holidays.heroImage)"
+  },
+  {
+   "file": "backgrounds/holiday/unsplash-1-FJafjsBEg.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Swayambhunath stupa, Kathmandu",
+   "source": "Unsplash",
+   "sourceUrl": "https://unsplash.com/photos/1-FJafjsBEg",
+   "downloadUrl": "https://images.unsplash.com/photo-1662721737580-b1558a41a49a?w=2000&q=85&fm=jpg",
+   "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
+   "faces": false,
+   "usedOn": "urbook holiday result cards (Holidays.heroImage)"
+  },
+  {
+   "file": "backgrounds/holiday/unsplash-I5wHnZqBiQI.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "lake sunset below the mountains",
+   "source": "Unsplash",
+   "sourceUrl": "https://unsplash.com/photos/I5wHnZqBiQI",
+   "downloadUrl": "https://images.unsplash.com/photo-1647679208171-85d25dcc22c2?w=2000&q=85&fm=jpg",
+   "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
+   "faces": false,
+   "usedOn": "urbook holiday result cards (Holidays.heroImage)"
+  },
+  {
+   "file": "backgrounds/holiday/unsplash--sz-PCtnmFI.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "hill village with Himalayan views",
+   "source": "Unsplash",
+   "sourceUrl": "https://unsplash.com/photos/-sz-PCtnmFI",
+   "downloadUrl": "https://images.unsplash.com/photo-1718179634911-8551f8b0cccf?w=2000&q=85&fm=jpg",
+   "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
+   "faces": false,
+   "usedOn": "urbook holiday result cards (Holidays.heroImage)"
+  },
+  {
+   "file": "backgrounds/holiday/unsplash-WhZTCXud5Xc.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "green valley with snow peaks",
+   "source": "Unsplash",
+   "sourceUrl": "https://unsplash.com/photos/WhZTCXud5Xc",
+   "downloadUrl": "https://images.unsplash.com/photo-1636513988093-126e51dee32d?w=2000&q=85&fm=jpg",
+   "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
+   "faces": false,
+   "usedOn": "urbook holiday result cards (Holidays.heroImage)"
+  },
+  {
+   "file": "backgrounds/holiday/unsplash-XWQK-9p53ts.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "jungle track in Chitwan",
+   "source": "Unsplash",
+   "sourceUrl": "https://unsplash.com/photos/XWQK-9p53ts",
+   "downloadUrl": "https://images.unsplash.com/photo-1647679147029-508c62f35c33?w=2000&q=85&fm=jpg",
+   "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
+   "faces": false,
+   "usedOn": "urbook holiday result cards (Holidays.heroImage)"
+  },
+  {
+   "file": "backgrounds/holiday/unsplash-TXBwxc836Bc.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "golden lake framed by trees",
+   "source": "Unsplash",
+   "sourceUrl": "https://unsplash.com/photos/TXBwxc836Bc",
+   "downloadUrl": "https://images.unsplash.com/photo-1691885935145-8f72e9ebb3a9?w=2000&q=85&fm=jpg",
+   "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
+   "faces": false,
+   "usedOn": "urbook holiday result cards (Holidays.heroImage)"
+  },
+  {
+   "file": "backgrounds/holiday/unsplash-DhglXCVqkXY.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "golden stupa with prayer flags",
+   "source": "Unsplash",
+   "sourceUrl": "https://unsplash.com/photos/DhglXCVqkXY",
+   "downloadUrl": "https://images.unsplash.com/photo-1572253765558-ed6413a68da5?w=2000&q=85&fm=jpg",
+   "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
+   "faces": false,
+   "usedOn": "urbook holiday result cards (Holidays.heroImage)"
+  },
+  {
+   "file": "backgrounds/holiday/unsplash-_rHplGon_uU.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "one-horned rhino in Chitwan grass",
+   "source": "Unsplash",
+   "sourceUrl": "https://unsplash.com/photos/_rHplGon_uU",
+   "downloadUrl": "https://images.unsplash.com/photo-1534215782964-d58601aa091c?w=2000&q=85&fm=jpg",
+   "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
+   "faces": false,
+   "usedOn": "urbook holiday result cards (Holidays.heroImage)"
+  },
+  {
+   "file": "backgrounds/holiday/unsplash-zHdZLIQnqOE.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "carved temple front, Kathmandu valley",
+   "source": "Unsplash",
+   "sourceUrl": "https://unsplash.com/photos/zHdZLIQnqOE",
+   "downloadUrl": "https://images.unsplash.com/photo-1665394183024-7a95b156d427?w=2000&q=85&fm=jpg",
+   "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
+   "faces": false,
+   "usedOn": "urbook holiday result cards (Holidays.heroImage)"
+  },
+  {
+   "file": "backgrounds/holiday/unsplash-etFzKUi9L4U.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "yellow boats on Phewa Lake, Pokhara",
+   "source": "Unsplash",
+   "sourceUrl": "https://unsplash.com/photos/etFzKUi9L4U",
+   "downloadUrl": "https://images.unsplash.com/photo-1691885770413-7cba2e97c779?w=2000&q=85&fm=jpg",
+   "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
+   "faces": false,
+   "usedOn": "urbook holiday result cards (Holidays.heroImage)"
+  },
+  {
+   "file": "backgrounds/holiday/unsplash-ORaIH_SdI-k.jpg",
+   "category": "holiday",
+   "region": "Bhutan",
+   "subject": "dzong fortress in a green valley",
+   "source": "Unsplash",
+   "sourceUrl": "https://unsplash.com/photos/ORaIH_SdI-k",
+   "downloadUrl": "https://images.unsplash.com/photo-1760286045085-8bbfd0d077bf?w=2000&q=85&fm=jpg",
+   "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
+   "faces": false,
+   "usedOn": "urbook holiday result cards (Holidays.heroImage)"
+  },
+  {
+   "file": "backgrounds/holiday/unsplash-smUAKwMT8XA.jpg",
+   "category": "holiday",
+   "region": "Sri Lanka",
+   "subject": "Sigiriya rock fortress from the air",
+   "source": "Unsplash",
+   "sourceUrl": "https://unsplash.com/photos/smUAKwMT8XA",
+   "downloadUrl": "https://images.unsplash.com/photo-1612862862126-865765df2ded?w=2000&q=85&fm=jpg",
+   "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
+   "faces": false,
+   "usedOn": "urbook holiday result cards (Holidays.heroImage)"
+  },
+  {
+   "file": "backgrounds/holiday/unsplash-jpTT_SAU034.jpg",
+   "category": "holiday",
+   "region": "Sri Lanka",
+   "subject": "blue train on the Nine Arches Bridge, Ella",
+   "source": "Unsplash",
+   "sourceUrl": "https://unsplash.com/photos/jpTT_SAU034",
+   "downloadUrl": "https://images.unsplash.com/photo-1566296314736-6eaac1ca0cb9?w=2000&q=85&fm=jpg",
+   "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
+   "faces": false,
+   "usedOn": "urbook holiday result cards (Holidays.heroImage)"
+  },
+  {
+   "file": "backgrounds/holiday/unsplash-iduEaeBB_rQ.jpg",
+   "category": "holiday",
+   "region": "Sri Lanka",
+   "subject": "palm trees on a south coast beach",
+   "source": "Unsplash",
+   "sourceUrl": "https://unsplash.com/photos/iduEaeBB_rQ",
+   "downloadUrl": "https://images.unsplash.com/photo-1580910527739-556eb89f9d65?w=2000&q=85&fm=jpg",
+   "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
+   "faces": false,
+   "usedOn": "urbook holiday result cards (Holidays.heroImage)"
+  },
+  {
+   "file": "backgrounds/holiday/unsplash-iZo_xVpa0HI.jpg",
+   "category": "holiday",
+   "region": "Sri Lanka",
+   "subject": "leopard on a tree stump, Yala",
+   "source": "Unsplash",
+   "sourceUrl": "https://unsplash.com/photos/iZo_xVpa0HI",
+   "downloadUrl": "https://images.unsplash.com/photo-1728455470905-156f4278056a?w=2000&q=85&fm=jpg",
+   "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
+   "faces": false,
+   "usedOn": "urbook holiday result cards (Holidays.heroImage)"
+  },
+  {
+   "file": "backgrounds/holiday/unsplash-ii0oWs5abCo.jpg",
+   "category": "holiday",
+   "region": "South India",
+   "subject": "houseboat on the Alappuzha backwaters, Kerala",
+   "source": "Unsplash",
+   "sourceUrl": "https://unsplash.com/photos/ii0oWs5abCo",
+   "downloadUrl": "https://images.unsplash.com/photo-1593693411515-c20261bcad6e?w=2000&q=85&fm=jpg",
+   "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
+   "faces": false,
+   "usedOn": "urbook holiday result cards (Holidays.heroImage)"
+  },
+  {
+   "file": "backgrounds/occasion/unsplash-ed5KySP1tfQ.jpg",
+   "category": "occasion",
+   "occasion": "Halloween",
+   "subject": "two glowing jack-o'-lanterns at night",
+   "source": "Unsplash",
+   "sourceUrl": "https://unsplash.com/photos/ed5KySP1tfQ",
+   "downloadUrl": "https://images.unsplash.com/photo-1477516561410-f0b5dd8319e4?w=2000&q=85&fm=jpg",
+   "licence": "Unsplash License (free commercial use, no attribution required; not Unsplash+)",
+   "faces": false,
+   "usedOn": "Halloween 2026 marketing email (Campaigns.heroImage)"
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-annapurna-marigolds-panorama-hd.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "marigolds below Annapurna South and Machapuchare",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "2864x1044",
+   "enlarged": true
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-annapurna-trail-suspension-bridge-hd.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "suspension bridge on the Annapurna trail, trekkers from behind",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "1620x2160",
+   "enlarged": true
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-boudhanath-stupa-kathmandu-hd.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Boudhanath stupa with prayer flags, Kathmandu",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "2000x1600",
+   "enlarged": true
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-ghandruk-slate-roofs-hd.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "slate-roofed Gurung houses, Ghandruk, Annapurna South",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "2400x1800",
+   "enlarged": true
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-ghandruk-village-annapurna-south-hd.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Ghandruk village below Annapurna South",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "2000x1600",
+   "enlarged": true
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-hill-village-annapurna-south.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "trekking village with blue roofs below Annapurna South",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "1440x1080",
+   "enlarged": false
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-lodge-garden-annapurna-sunrise-hd.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "lodge garden with marigolds, sunrise on Annapurna South and Machapuchare",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "2880x1920",
+   "enlarged": true
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-machapuchare-fishtail-peak-hd.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Machapuchare (Fishtail) peak, blue sky",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "2880x1920",
+   "enlarged": true
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-phewa-lake-boats-dusk-hd.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "rowing boats on Phewa Lake at dusk, Pokhara",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "2000x1600",
+   "enlarged": true
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-pokhara-phewa-lake-tal-barahi.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Tal Barahi temple on Phewa Lake, Pokhara, Annapurna range",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "2500x1130",
+   "enlarged": false
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-poon-hill-annapurna-prayer-flags.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "prayer flags below Annapurna South and Hiunchuli, Poon Hill",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "1440x1080",
+   "enlarged": false
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-poon-hill-sunrise-dhaulagiri-hd.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "sunrise over Dhaulagiri from Poon Hill, small crowd from behind",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "2400x1800",
+   "enlarged": true
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-rhododendron-forest-trail.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "stone trail through mossy rhododendron forest, trekkers from behind",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "1440x1080",
+   "enlarged": false
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-snowy-forest-trail-hd.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "snowy forest trail, trekker from behind",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "2000x1600",
+   "enlarged": true
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-village-path-annapurna-machapuchare-hd.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "stone village path with Annapurna South and Machapuchare",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "2250x1200",
+   "enlarged": true
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-everest-lhotse-thamserku-view.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Thamserku with Everest and Lhotse beyond, Everest region",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "1600x1200",
+   "enlarged": false
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-everest-nuptse-kala-patthar.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Everest and Nuptse above the Khumbu glacier",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "1600x1200",
+   "enlarged": false
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-annapurna-base-camp-helicopter.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Annapurna Base Camp lodges and helicopter below Annapurna I",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "1600x1200",
+   "enlarged": false
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-everest-lhotse-ama-dablam-view.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Everest, Lhotse and Ama Dablam across the Khumbu valley",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "1600x1200",
+   "enlarged": false
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-helicopter-everest-nuptse-close.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "helicopter from behind below Everest and Nuptse",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "1600x1200",
+   "enlarged": false
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-helicopter-below-everest-nuptse.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "helicopter landed below Everest and Nuptse, deep blue sky",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "1600x1200",
+   "enlarged": false
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-helicopter-everest-nuptse-side.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "helicopter side view in front of Everest and Nuptse",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "1600x1200",
+   "enlarged": false
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-helicopter-everest-nuptse-wide.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "helicopter on a snowy ridge, Everest and Nuptse, wide sky",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "1600x1200",
+   "enlarged": false
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-khumbu-glacier-peaks.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Khumbu glacier and snow peaks, Everest region",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "1600x1200",
+   "enlarged": false
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-gosainkunda-shiva-shrine-helicopter.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Shiva shrine at Gosainkunda with helicopter, person from behind",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "1600x1200",
+   "enlarged": false
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-everest-nuptse-blue-sky.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Everest and Nuptse under a clear blue sky",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "1600x1200",
+   "enlarged": false
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-gosainkunda-shrine-trident-helicopter.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Gosainkunda shrine and trident, helicopter beyond, person from behind",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "1600x1200",
+   "enlarged": false
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-gosainkunda-frozen-lake-sun-halo.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "frozen Gosainkunda lake under a sun halo",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "1600x1200",
+   "enlarged": false
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-gosainkunda-frozen-lake-snow.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "frozen Gosainkunda lake and snowy rocks",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "1600x1200",
+   "enlarged": false
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-helicopter-ama-dablam-snow.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "helicopter on snow below Ama Dablam",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "2576x1450",
+   "enlarged": false,
+   "note": "operator names/logos blurred"
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-helicopter-annapurna-base-camp-snow.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "helicopter at Annapurna Base Camp, Annapurna I behind",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "960x1280",
+   "enlarged": false,
+   "note": "operator names/logos blurred"
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-helicopter-close-snow-peaks.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "helicopter close-up, snow peaks and cloud",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "2016x1512",
+   "enlarged": false,
+   "note": "operator names/logos blurred"
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-helicopter-door-open-valley-sun.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "helicopter door open, Khumbu valley in sun",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "1512x2016",
+   "enlarged": false,
+   "note": "operator names/logos blurred"
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-helicopter-everest-region-landed.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "helicopter landed below Everest-region peaks",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "2576x1932",
+   "enlarged": false,
+   "note": "operator names/logos blurred"
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-helicopter-everest-view-sun-flare.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "helicopter at a viewpoint with Lhotse and Ama Dablam, sun flare",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "1600x1200",
+   "enlarged": false,
+   "note": "operator names/logos blurred"
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-helicopter-from-below-blue-sky.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "helicopter from below, clear blue sky",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "1280x720",
+   "enlarged": false,
+   "note": "operator names/logos blurred"
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-helicopter-gokyo-lake-frozen.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "helicopter by a frozen lake below snow peaks",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "1280x960",
+   "enlarged": false,
+   "note": "operator names/logos blurred"
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-helicopter-gokyo-lake.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "helicopter at a turquoise lake below snow peaks, small figures",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "1040x780",
+   "enlarged": false,
+   "note": "operator names/logos blurred"
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-helicopter-gosainkunda-snow.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "helicopter on snow above Gosainkunda lake",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "1600x1200",
+   "enlarged": false,
+   "note": "operator names/logos blurred"
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-helicopter-khumbu-hover-front.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "helicopter hovering, Khumbu peaks behind",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "1608x2144",
+   "enlarged": false,
+   "note": "operator names/logos blurred"
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-helicopter-khumbu-landing-front.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "helicopter landing in the Khumbu valley",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "1932x2576",
+   "enlarged": false,
+   "note": "operator names/logos blurred"
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-helicopter-manang-valley-low-pass.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "blue helicopter flying low over a river bed",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "2016x1512",
+   "enlarged": false,
+   "note": "operator names/logos blurred"
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-helicopter-manang-valley-takeoff.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "blue helicopter taking off from a river bed",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "2576x1932",
+   "enlarged": false,
+   "note": "operator names/logos blurred"
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-helicopters-lukla-airport.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "two helicopters at Lukla airport, crew in hi-vis from a distance",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "1932x2576",
+   "enlarged": false,
+   "note": "operator names/logos blurred"
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-helicopter-gokyo-lake-silver-hd.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "silver helicopter at Gokyo lake",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "2560x1920",
+   "enlarged": true,
+   "note": "operator names/logos blurred"
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-helicopter-mardi-himal-high-camp-hd.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "helicopter above Mardi Himal High Camp lodge",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "2560x1920",
+   "enlarged": true,
+   "note": "operator names/logos blurred"
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-helicopter-mardi-himal-machapuchare.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "helicopter at Mardi Himal, Machapuchare and trekkers from behind",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "1280x1115",
+   "enlarged": false,
+   "note": "operator names/logos blurred"
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-helicopter-pumori-helipad.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "helicopter on a helipad below Pumori",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "1200x1600",
+   "enlarged": false,
+   "note": "operator names/logos blurred"
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-helicopter-silver-snow-close-hd.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "silver helicopter close-up on snow",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "2560x1920",
+   "enlarged": true,
+   "note": "operator names/logos blurred"
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-helicopter-silver-snowfield-hd.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "silver helicopter in a wide snowfield",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "2560x1920",
+   "enlarged": true,
+   "note": "operator names/logos blurred"
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-helicopter-silver-snowy-summit-hd.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "silver helicopter on a snowy summit above the clouds",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "2560x1920",
+   "enlarged": true,
+   "note": "operator names/logos blurred"
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-helicopter-snow-camp-loading-hd.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "helicopter at a snowy camp, crew loading bags (blurred)",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "1560x2080",
+   "enlarged": true,
+   "note": "operator names/logos blurred"
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-helicopter-snow-sun-beam-hd.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "helicopter on snow, sun beam",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "1920x2560",
+   "enlarged": true,
+   "note": "operator names/logos blurred"
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-helicopter-syangboche-clouds-thamserku-hd.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "helicopter at Syangboche, clouds and Thamserku",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "1560x2080",
+   "enlarged": true,
+   "note": "operator names/logos blurred"
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-helicopters-syangboche-thamserku-kongde-hd.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "helicopters at Syangboche below Kongde",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "1560x2080",
+   "enlarged": true,
+   "note": "operator names/logos blurred"
+  },
+  {
+   "file": "holiday/photos/nepal/nepal-helicopters-two-yellow-grass-hd.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "two helicopters on a grassy slope",
+   "source": "Shan (owner-supplied, 16 Oct 2026)",
+   "licence": "urbook own use",
+   "faces": false,
+   "size": "1920x2560",
+   "enlarged": true,
+   "note": "operator names/logos blurred"
+  },
+  {
+   "file": "backgrounds/holiday/packages/india-golden-triangle.jpg",
+   "category": "holiday",
+   "region": "India",
+   "subject": "Golden Triangle – Delhi · Agra · Jaipur",
+   "package": "Golden Triangle",
+   "source": "urbook website package hero photo (Wix media 4d366c_3cfac1283e964341b79680a5d95329cd~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "2400x1600",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/india-golden-triangle_square.jpg",
+    "branded_landscape": "ads/holidays/branded/india-golden-triangle_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/india-north-tigers.jpg",
+   "category": "holiday",
+   "region": "India",
+   "subject": "North India & Tigers – Jaipur · Ranthambore · Varanasi",
+   "package": "North India & Tigers",
+   "source": "urbook website package hero photo (Wix media 4d366c_e452737888a845ffbcb2d5fd6de4271e~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "2400x1600",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/india-north-tigers_square.jpg",
+    "branded_landscape": "ads/holidays/branded/india-north-tigers_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/india-grand-north.jpg",
+   "category": "holiday",
+   "region": "India",
+   "subject": "Grand North India – Udaipur · Amritsar · Himalayas",
+   "package": "Grand North India",
+   "source": "urbook website package hero photo (Wix media 4d366c_4cb4a618e81b423491198f6cd0d0b34d~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "2400x1288",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/india-grand-north_square.jpg",
+    "branded_landscape": "ads/holidays/branded/india-grand-north_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/india-kerala-munnar.jpg",
+   "category": "holiday",
+   "region": "India",
+   "subject": "Kerala Backwaters & Hills – Kochi · Munnar · Alleppey",
+   "package": "Kerala Backwaters & Hills",
+   "source": "urbook website package hero photo (Wix media 4d366c_a36811328f48472495182e12f233c9e6~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "2400x1600",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/india-kerala-munnar_square.jpg",
+    "branded_landscape": "ads/holidays/branded/india-kerala-munnar_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/india-classic-south.jpg",
+   "category": "holiday",
+   "region": "India",
+   "subject": "Classic South India – Mysore · Ooty · Kerala",
+   "package": "Classic South India",
+   "source": "urbook website package hero photo (Wix media 4d366c_1284a7864c2f409fbdcd73828214314f~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "2400x1602",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/india-classic-south_square.jpg",
+    "branded_landscape": "ads/holidays/branded/india-classic-south_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/india-temple-coast.jpg",
+   "category": "holiday",
+   "region": "India",
+   "subject": "South India Temple Trail – Chennai to Kanyakumari",
+   "package": "South India Temple Trail",
+   "source": "urbook website package hero photo (Wix media 4d366c_30ffd11e6bf1453a9f308eeced303ca5~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "2400x1346",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/india-temple-coast_square.jpg",
+    "branded_landscape": "ads/holidays/branded/india-temple-coast_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/india-your-way.jpg",
+   "category": "holiday",
+   "region": "India",
+   "subject": "India Your Way – Tailored India tours",
+   "package": "India Your Way",
+   "source": "urbook website package hero photo (Wix media 4d366c_05d0a2bfe9894698b6791cab227432e7~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "2400x1800",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/india-your-way_square.jpg",
+    "branded_landscape": "ads/holidays/branded/india-your-way_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/srilanka-your-way.jpg",
+   "category": "holiday",
+   "region": "Sri Lanka",
+   "subject": "Sri Lanka Holidays – Sigiriya · Kandy · Ella",
+   "package": "Sri Lanka Holidays",
+   "source": "urbook website package hero photo (Wix media 4d366c_8bf102906215431c9c003f20a916b945~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x1000",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/srilanka-your-way_square.jpg",
+    "branded_landscape": "ads/holidays/branded/srilanka-your-way_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/srilanka-explore.jpg",
+   "category": "holiday",
+   "region": "Sri Lanka",
+   "subject": "Explore Sri Lanka – Sigiriya to the South Coast",
+   "package": "Explore Sri Lanka",
+   "source": "urbook website package hero photo (Wix media 4d366c_b3c77bab94e54c9692eeda77f3601521~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x1200",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/srilanka-explore_square.jpg",
+    "branded_landscape": "ads/holidays/branded/srilanka-explore_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/srilanka-south-coast.jpg",
+   "category": "holiday",
+   "region": "Sri Lanka",
+   "subject": "Sri Lanka South Coast – Nuwara Eliya · Ella · Beaches",
+   "package": "Sri Lanka South Coast",
+   "source": "urbook website package hero photo (Wix media 4d366c_67df27b8ae344b7a835d8c7238e89f4e~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x1200",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/srilanka-south-coast_square.jpg",
+    "branded_landscape": "ads/holidays/branded/srilanka-south-coast_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/srilanka-yala.jpg",
+   "category": "holiday",
+   "region": "Sri Lanka",
+   "subject": "Grand Sri Lanka – Cultural Triangle to Yala",
+   "package": "Grand Sri Lanka",
+   "source": "urbook website package hero photo (Wix media 4d366c_6adc64c5b01e4df4b7f72559e5aaf122~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x2400",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/srilanka-yala_square.jpg",
+    "branded_landscape": "ads/holidays/branded/srilanka-yala_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/nepal-your-way.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Nepal Your Way – Tailored Nepal tours",
+   "package": "Nepal Your Way",
+   "source": "urbook website package hero photo (Wix media 4d366c_2c69d308a07b4dbbb8c6bf6cc8dd3b4b~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x739",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/nepal-your-way_square.jpg",
+    "branded_landscape": "ads/holidays/branded/nepal-your-way_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/nepal-experience.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Experience Nepal – Kathmandu · Pokhara · Chitwan",
+   "package": "Experience Nepal",
+   "source": "urbook website package hero photo (Wix media 4d366c_eb7e6ea043d14051b2164f6b27764eee~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x1195",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/nepal-experience_square.jpg",
+    "branded_landscape": "ads/holidays/branded/nepal-experience_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/nepal-go-single.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Go Single Nepal – Your own room",
+   "package": "Go Single Nepal",
+   "source": "urbook website package hero photo (Wix media 4d366c_d7cfbd92d57c429eb9746342a437ed72~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x1200",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/nepal-go-single_square.jpg",
+    "branded_landscape": "ads/holidays/branded/nepal-go-single_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/nepal-bhutan.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Nepal & Bhutan – Kathmandu · Thimphu · Paro",
+   "package": "Nepal & Bhutan",
+   "source": "urbook website package hero photo (Wix media 4d366c_a4781ffd992c438aaa7453209f38eeb9~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x1023",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/nepal-bhutan_square.jpg",
+    "branded_landscape": "ads/holidays/branded/nepal-bhutan_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/nepal-wellness.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Wellness Nepal – Poon Hill soft trek",
+   "package": "Wellness Nepal",
+   "source": "urbook website package hero photo (Wix media 4d366c_daffe2f0ad4e4a49986731d82aa0af82~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x2400",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/nepal-wellness_square.jpg",
+    "branded_landscape": "ads/holidays/branded/nepal-wellness_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/nepal-group.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Nepal Group Tour – Kathmandu · Pokhara · Chitwan",
+   "package": "Nepal Group Tour",
+   "source": "urbook website package hero photo (Wix media 4d366c_d1ff3cd07f9741e29b8121eae393df0f~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x2240",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/nepal-group_square.jpg",
+    "branded_landscape": "ads/holidays/branded/nepal-group_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/nepal-mustang.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Upper Mustang – The Forbidden Kingdom",
+   "package": "Upper Mustang",
+   "source": "urbook website package hero photo (Wix media 4d366c_c248614145cf4b598bc548d4590437b8~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x1067",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/nepal-mustang_square.jpg",
+    "branded_landscape": "ads/holidays/branded/nepal-mustang_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/nepal-yoga.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Yoga & Meditation – Kathmandu retreat",
+   "package": "Yoga & Meditation",
+   "source": "urbook website package hero photo (Wix media 4d366c_cab609c77dcc4980a3ad76fb01e2b928~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x1067",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/nepal-yoga_square.jpg",
+    "branded_landscape": "ads/holidays/branded/nepal-yoga_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/nepal-wonders.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Wonders of Nepal – Kathmandu · Pokhara · Chitwan",
+   "package": "Wonders of Nepal",
+   "source": "urbook website package hero photo (Wix media 4d366c_dc1e09804a6e45619503953fba47eb9d~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x1280",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/nepal-wonders_square.jpg",
+    "branded_landscape": "ads/holidays/branded/nepal-wonders_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/nepal-active.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Active Nepal – Chitwan & Himalayan trek",
+   "package": "Active Nepal",
+   "source": "urbook website package hero photo (Wix media 4d366c_3fe0d7bf4b8e472bbd628b72882b2b89~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x1067",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/nepal-active_square.jpg",
+    "branded_landscape": "ads/holidays/branded/nepal-active_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/nepal-muktinath-poonhill.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Muktinath & Poon Hill – Nepal",
+   "package": "Muktinath & Poon Hill",
+   "source": "urbook website package hero photo (Wix media 4d366c_47dbc4d13dba471288b4d1814ff88470~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x2400",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/nepal-muktinath-poonhill_square.jpg",
+    "branded_landscape": "ads/holidays/branded/nepal-muktinath-poonhill_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/nepal-jomsom.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Jomsom & Muktinath – Kathmandu · Pokhara",
+   "package": "Jomsom & Muktinath",
+   "source": "urbook website package hero photo (Wix media 4d366c_cfcb48ebd1a440f4b5fa21dee5774109~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x1067",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/nepal-jomsom_square.jpg",
+    "branded_landscape": "ads/holidays/branded/nepal-jomsom_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/nepal-kathmandu.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Explore Kathmandu – Temples & heritage",
+   "package": "Explore Kathmandu",
+   "source": "urbook website package hero photo (Wix media 4d366c_97f36cd4bbf64e5b95bdc9aecc380195~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x2400",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/nepal-kathmandu_square.jpg",
+    "branded_landscape": "ads/holidays/branded/nepal-kathmandu_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/nepal-kathmandu-pokhara.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Kathmandu & Pokhara – Nepal",
+   "package": "Kathmandu & Pokhara",
+   "source": "urbook website package hero photo (Wix media 4d366c_e54195aa708d418c8e6f9c49ae202d33~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x1063",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/nepal-kathmandu-pokhara_square.jpg",
+    "branded_landscape": "ads/holidays/branded/nepal-kathmandu-pokhara_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/nepal-round-trip.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Nepal Round Trip – Kathmandu · Chitwan · Pokhara",
+   "package": "Nepal Round Trip",
+   "source": "urbook website package hero photo (Wix media 4d366c_445e4dd9e5494971b1d3a3266f1787dd~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x1068",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/nepal-round-trip_square.jpg",
+    "branded_landscape": "ads/holidays/branded/nepal-round-trip_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/nepal-nagarkot.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Kathmandu & Nagarkot – Himalayan views",
+   "package": "Kathmandu & Nagarkot",
+   "source": "urbook website package hero photo (Wix media 4d366c_f565571f11da46fb92963a0b39476dde~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x1067",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/nepal-nagarkot_square.jpg",
+    "branded_landscape": "ads/holidays/branded/nepal-nagarkot_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/nepal-annapurna-bc.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Annapurna Base Camp – Trek",
+   "package": "Annapurna Base Camp",
+   "source": "urbook website package hero photo (Wix media 4d366c_f1242513f833463eb1d5c3da7706964d~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x1067",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/nepal-annapurna-bc_square.jpg",
+    "branded_landscape": "ads/holidays/branded/nepal-annapurna-bc_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/nepal-everest-bc.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Everest Base Camp – Trek",
+   "package": "Everest Base Camp",
+   "source": "urbook website package hero photo (Wix media 4d366c_11115b65558b4f9eb1f68c725c0d4270~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x1067",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/nepal-everest-bc_square.jpg",
+    "branded_landscape": "ads/holidays/branded/nepal-everest-bc_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/nepal-foothills.jpg",
+   "category": "holiday",
+   "region": "Nepal",
+   "subject": "Annapurna Foothills – Soft trek",
+   "package": "Annapurna Foothills",
+   "source": "urbook website package hero photo (Wix media 4d366c_2acdf5c11c194e798d2e37da3fd433ff~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x2400",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/nepal-foothills_square.jpg",
+    "branded_landscape": "ads/holidays/branded/nepal-foothills_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/uk-your-way.jpg",
+   "category": "holiday",
+   "region": "United Kingdom",
+   "subject": "UK Your Way – Tailored UK tours",
+   "package": "UK Your Way",
+   "source": "urbook website package hero photo (Wix media 4d366c_ea1ffb788754447b8dd9370817cabf43~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x1067",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/uk-your-way_square.jpg",
+    "branded_landscape": "ads/holidays/branded/uk-your-way_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/uk-highlands.jpg",
+   "category": "holiday",
+   "region": "United Kingdom",
+   "subject": "Highlands & Heritage – 6-day UK tour",
+   "package": "Highlands & Heritage",
+   "source": "urbook website package hero photo (Wix media 4d366c_8e00d0e28ea54db79c9ca94963d69052~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x898",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/uk-highlands_square.jpg",
+    "branded_landscape": "ads/holidays/branded/uk-highlands_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/uk-lake-district.jpg",
+   "category": "holiday",
+   "region": "United Kingdom",
+   "subject": "Peak & Lake District – With Stratford",
+   "package": "Peak & Lake District",
+   "source": "urbook website package hero photo (Wix media 4d366c_b816a36b67cc43fd8c3b2e0245d91d9c~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x873",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/uk-lake-district_square.jpg",
+    "branded_landscape": "ads/holidays/branded/uk-lake-district_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/uk-devon-cornwall.jpg",
+   "category": "holiday",
+   "region": "United Kingdom",
+   "subject": "Devon & Cornwall – 3-day tour",
+   "package": "Devon & Cornwall",
+   "source": "urbook website package hero photo (Wix media 4d366c_7bc3a52171714743abb0c058bc686740~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x901",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/uk-devon-cornwall_square.jpg",
+    "branded_landscape": "ads/holidays/branded/uk-devon-cornwall_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/uk-scotland-england.jpg",
+   "category": "holiday",
+   "region": "United Kingdom",
+   "subject": "Scotland & England – 3-day tour",
+   "package": "Scotland & England",
+   "source": "urbook website package hero photo (Wix media 4d366c_85a5a8ef4394409683da11948b41b905~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x1077",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/uk-scotland-england_square.jpg",
+    "branded_landscape": "ads/holidays/branded/uk-scotland-england_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/uk-london-3day.jpg",
+   "category": "holiday",
+   "region": "United Kingdom",
+   "subject": "London 3-Day Tour – London Eye included",
+   "package": "London 3-Day Tour",
+   "source": "urbook website package hero photo (Wix media 4d366c_b570936ddf214770828c6b15162c4ef5~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x1067",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/uk-london-3day_square.jpg",
+    "branded_landscape": "ads/holidays/branded/uk-london-3day_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/uk-snowdonia.jpg",
+   "category": "holiday",
+   "region": "United Kingdom",
+   "subject": "Wales Snowdonia – 2-day tour",
+   "package": "Wales Snowdonia",
+   "source": "urbook website package hero photo (Wix media 4d366c_71b986193e6a4341926dcff52956e7af~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x1067",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/uk-snowdonia_square.jpg",
+    "branded_landscape": "ads/holidays/branded/uk-snowdonia_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/uk-isle-of-wight.jpg",
+   "category": "holiday",
+   "region": "United Kingdom",
+   "subject": "Isle of Wight – Day tour",
+   "package": "Isle of Wight",
+   "source": "urbook website package hero photo (Wix media 4d366c_8242c214c87b446a86bbec889261c884~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x1067",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/uk-isle-of-wight_square.jpg",
+    "branded_landscape": "ads/holidays/branded/uk-isle-of-wight_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/uk-durdle-door.jpg",
+   "category": "holiday",
+   "region": "United Kingdom",
+   "subject": "Bournemouth & Durdle Door – Day tour",
+   "package": "Bournemouth & Durdle Door",
+   "source": "urbook website package hero photo (Wix media 4d366c_a9dd03bef1b74edcb3ef9604b0cb8441~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x1093",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/uk-durdle-door_square.jpg",
+    "branded_landscape": "ads/holidays/branded/uk-durdle-door_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/uk-stonehenge.jpg",
+   "category": "holiday",
+   "region": "United Kingdom",
+   "subject": "Windsor, Stonehenge & Bath – Day tour",
+   "package": "Windsor, Stonehenge & Bath",
+   "source": "urbook website package hero photo (Wix media 4d366c_5c2e17a93d234dc49b2bf22c08450345~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x1067",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/uk-stonehenge_square.jpg",
+    "branded_landscape": "ads/holidays/branded/uk-stonehenge_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/uk-oxford-cotswolds.jpg",
+   "category": "holiday",
+   "region": "United Kingdom",
+   "subject": "Oxford & the Cotswolds – Day tour",
+   "package": "Oxford & the Cotswolds",
+   "source": "urbook website package hero photo (Wix media 4d366c_7cae0e92a69043659793401432b4c614~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x899",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/uk-oxford-cotswolds_square.jpg",
+    "branded_landscape": "ads/holidays/branded/uk-oxford-cotswolds_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/uk-london-day.jpg",
+   "category": "holiday",
+   "region": "United Kingdom",
+   "subject": "London Sightseeing – Day tour",
+   "package": "London Sightseeing",
+   "source": "urbook website package hero photo (Wix media 4d366c_5a113f8d90fa481fb50461ba8ecf2bf7~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x1067",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/uk-london-day_square.jpg",
+    "branded_landscape": "ads/holidays/branded/uk-london-day_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/europe-paris.jpg",
+   "category": "holiday",
+   "region": "Europe",
+   "subject": "Paris & Versailles – 3-day tour",
+   "package": "Paris & Versailles",
+   "source": "urbook website package hero photo (Wix media 4d366c_9cb77a39632a45278d02ea31f914880e~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x1067",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/europe-paris_square.jpg",
+    "branded_landscape": "ads/holidays/branded/europe-paris_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/europe-benelux.jpg",
+   "category": "holiday",
+   "region": "Europe",
+   "subject": "Belgium & Netherlands – 3-day tour",
+   "package": "Belgium & Netherlands",
+   "source": "urbook website package hero photo (Wix media 4d366c_46f0e12d2e1648ba87e480c7e65357a7~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x1000",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/europe-benelux_square.jpg",
+    "branded_landscape": "ads/holidays/branded/europe-benelux_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/europe-switzerland.jpg",
+   "category": "holiday",
+   "region": "Europe",
+   "subject": "Swiss Special – 4-day tour",
+   "package": "Swiss Special",
+   "source": "urbook website package hero photo (Wix media 4d366c_cdde455264b04318b3b5def53317629d~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x1200",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/europe-switzerland_square.jpg",
+    "branded_landscape": "ads/holidays/branded/europe-switzerland_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/europe-germany.jpg",
+   "category": "holiday",
+   "region": "Europe",
+   "subject": "Rhine & Heidelberg – 4-day Germany tour",
+   "package": "Rhine & Heidelberg",
+   "source": "urbook website package hero photo (Wix media 4d366c_5c99e2c57c28494687abcf46a0899eeb~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x2850",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/europe-germany_square.jpg",
+    "branded_landscape": "ads/holidays/branded/europe-germany_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/europe-austria.jpg",
+   "category": "holiday",
+   "region": "Europe",
+   "subject": "Salzburg & Hallstatt – 5-day tour",
+   "package": "Salzburg & Hallstatt",
+   "source": "urbook website package hero photo (Wix media 4d366c_cfcfa5e2b98c40c6abdd379019285f39~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x1067",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/europe-austria_square.jpg",
+    "branded_landscape": "ads/holidays/branded/europe-austria_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/europe-italy.jpg",
+   "category": "holiday",
+   "region": "Europe",
+   "subject": "Italy: Como to Venice – 7-day tour",
+   "package": "Italy: Como to Venice",
+   "source": "urbook website package hero photo (Wix media 4d366c_fb01e4605471414493040364fbb545f5~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x1071",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/europe-italy_square.jpg",
+    "branded_landscape": "ads/holidays/branded/europe-italy_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/europe-spain.jpg",
+   "category": "holiday",
+   "region": "Europe",
+   "subject": "Spain Highlights – San Sebastian · Madrid · Barcelona",
+   "package": "Spain Highlights",
+   "source": "urbook website package hero photo (Wix media 4d366c_e29fdd8620db43ae919398591aaff6d3~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x1067",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/europe-spain_square.jpg",
+    "branded_landscape": "ads/holidays/branded/europe-spain_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/europe-portugal.jpg",
+   "category": "holiday",
+   "region": "Europe",
+   "subject": "Porto, Lisbon & Sintra – 9-day tour",
+   "package": "Porto, Lisbon & Sintra",
+   "source": "urbook website package hero photo (Wix media 4d366c_b598fa80a63e41b0a17ae150bf2a8dbb~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x1067",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/europe-portugal_square.jpg",
+    "branded_landscape": "ads/holidays/branded/europe-portugal_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/europe-prague.jpg",
+   "category": "holiday",
+   "region": "Europe",
+   "subject": "Prague & Dresden – 5-day tour",
+   "package": "Prague & Dresden",
+   "source": "urbook website package hero photo (Wix media 4d366c_7bd958e108fe4df380d6e3fe923e0398~mv2.jpeg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x900",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/europe-prague_square.jpg",
+    "branded_landscape": "ads/holidays/branded/europe-prague_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/europe-scandinavia.jpg",
+   "category": "holiday",
+   "region": "Europe",
+   "subject": "Scandinavia – Copenhagen · Gothenburg · Oslo",
+   "package": "Scandinavia",
+   "source": "urbook website package hero photo (Wix media 4d366c_362ccf8389ad426590d54ce5a4007904~mv2.jpeg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x1067",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/europe-scandinavia_square.jpg",
+    "branded_landscape": "ads/holidays/branded/europe-scandinavia_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/europe-berlin-budapest.jpg",
+   "category": "holiday",
+   "region": "Europe",
+   "subject": "Berlin to Budapest – 9-day tour",
+   "package": "Berlin to Budapest",
+   "source": "urbook website package hero photo (Wix media 4d366c_77ce21ed25b24ac6b63735cde661fc70~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x1067",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/europe-berlin-budapest_square.jpg",
+    "branded_landscape": "ads/holidays/branded/europe-berlin-budapest_landscape.jpg"
+   }
+  },
+  {
+   "file": "backgrounds/holiday/packages/europe-your-way.jpg",
+   "category": "holiday",
+   "region": "Europe",
+   "subject": "Europe Your Way – Tailored multi-country tours",
+   "package": "Europe Your Way",
+   "source": "urbook website package hero photo (Wix media 4d366c_cf261058593040f981ea1c461a0f68a1~mv2.jpg)",
+   "licence": "urbook own use (free-licence site photo)",
+   "faces": false,
+   "size": "1600x1200",
+   "adImages": {
+    "branded_square": "ads/holidays/branded/europe-your-way_square.jpg",
+    "branded_landscape": "ads/holidays/branded/europe-your-way_landscape.jpg"
+   }
+  }
+ ]
 }
