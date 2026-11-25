@@ -1,0 +1,4 @@
+{ "scenes": [
+  {"seconds": 1.5, "hook": "Heathrow T5 in 60 seconds"},
+  {"seconds": 2.5, "caption": "Your driver meets you at the terminal"},
+  {"seconds": 2, "caption": "Hand over the keys – walk straight in"} ] }
