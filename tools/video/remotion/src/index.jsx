@@ -6,15 +6,25 @@ import {registerRoot, Composition, AbsoluteFill, Sequence, OffthreadVideo, Img, 
 import React from 'react';
 const INK = '#0E2A47', SUN = '#F5821F';
 const SAFE = {top: 230, bottom: 480, right: 230, left: 60}; // Instagram/TikTok safe zone on 1080x1920
-const FPS = 30, END_S = 3;
+const FPS = 30, END_S = 2.5;
 const url = s => (s.startsWith('http') ? s : staticFile(s));
-const Media = ({src, start = 0, sound = false}) => !src ? <AbsoluteFill style={{background: INK}}/> :
+const Media = ({src, start = 0, sound = false, k = 0}) => !src ? <AbsoluteFill style={{background: INK}}/> :
   /\.(mp4|mov|webm)$/i.test(src) ? <OffthreadVideo startFrom={Math.round(start * FPS)} src={url(src)} muted={!sound} volume={1} style={{width: '100%', height: '100%', objectFit: 'cover'}}/> :
-  <Img src={url(src)} style={{width: '100%', height: '100%', objectFit: 'cover'}}/>;
+  <KenBurns src={src} k={k}/>;
+/* Photos move (25 Nov 2026, natural look): a slow 8% zoom with a gentle pan, direction alternating per scene. */
+const KenBurns = ({src, k = 0}) => { const f = useCurrentFrame(); const z = 1.04 + f * 0.0016; const dx = (k % 2 ? -1 : 1) * f * 0.35;
+  return <Img src={url(src)} style={{width: '100%', height: '100%', objectFit: 'cover', transform: `scale(${z}) translateX(${dx}px)`}}/>; };
 const fade = () => interpolate(useCurrentFrame(), [0, 6], [0, 1], {extrapolateRight: 'clamp'});
-const Text = ({text, big}) => <div style={{position: 'absolute', left: SAFE.left, right: SAFE.right, top: big ? SAFE.top + 130 : undefined, bottom: big ? undefined : SAFE.bottom,
-    opacity: fade(), color: '#fff', fontFamily: 'sans-serif', fontWeight: 800, fontSize: big ? 92 : 58, lineHeight: 1.12,
-    textShadow: '0 4px 18px rgba(0,0,0,.7)'}}>{big ? <span style={{background: SUN, padding: '6px 18px', borderRadius: 14, boxDecorationBreak: 'clone', WebkitBoxDecorationBreak: 'clone'}}>{text}</span> : text}</div>;
+/* NATURAL LOOK (Shan, 25 Nov 2026: "all posts should look natural like the Colmar TikTok"): TikTok-native
+ * captions – white heavy text with a dark outline, centred in the safe zone, one *word* highlighted in
+ * yellow, no coloured boxes; the hook is the same style, just bigger, at the top third. */
+const HI = '#FFD400';
+const words = (t) => String(t).split(/(\*[^*]+\*)/).map((p, i) => /^\*[^*]+\*$/.test(p)
+  ? <span key={i} style={{color: HI}}>{p.slice(1, -1)}</span> : <React.Fragment key={i}>{p}</React.Fragment>);
+const Text = ({text, big}) => <div style={{position: 'absolute', left: SAFE.left, right: SAFE.right, top: big ? SAFE.top + 160 : undefined, bottom: big ? undefined : SAFE.bottom + 40,
+    opacity: fade(), color: '#fff', fontFamily: '"Montserrat", "Arial Black", sans-serif', fontWeight: 900, fontSize: big ? 84 : 52, lineHeight: 1.12,
+    textAlign: 'center', textTransform: big ? 'none' : 'none', WebkitTextStroke: big ? '3px #000' : '2px #000', paintOrder: 'stroke fill',
+    textShadow: '0 3px 10px rgba(0,0,0,.55)'}}>{words(text)}</div>;
 const Logo = ({logo, size = 96, style}) => logo ? <div style={{background: 'rgba(255,255,255,.94)', borderRadius: size * .22, padding: `${size * .12}px ${size * .22}px`, display: 'inline-flex', ...style}}><Img src={url(logo)} style={{height: size}}/></div> : null;
 const Chip = ({offer}) => offer ? <div style={{position: 'absolute', left: SAFE.left, bottom: SAFE.bottom - 110, background: SUN, color: '#fff',
     fontFamily: 'sans-serif', fontWeight: 800, fontSize: 40, padding: '10px 22px', borderRadius: 40, opacity: fade()}}>{offer.chip}</div> : null;
@@ -31,11 +41,11 @@ const EndCard = ({end = {}, offer, logo, src, start}) => <AbsoluteFill>
 // keepSound (25 Nov 2026, Shan): the clip's own voice + music are kept exactly; no music bed, no AI voice.
 const StoryReel = ({scenes = [], music, logo, offer, end, chipFrom, keepSound = false}) => { let at = 0; const hasVoice = scenes.some(s => s.voice);
   const items = scenes.map((s, i) => { const d = Math.round((s.seconds || 2.5) * FPS); const el =
-    <Sequence key={i} from={at} durationInFrames={d}><Media src={s.src} start={s.start} sound={keepSound}/><AbsoluteFill style={{background: 'linear-gradient(transparent 50%, rgba(0,0,0,.6))'}}/>
+    <Sequence key={i} from={at} durationInFrames={d}><Media src={s.src} start={s.start} sound={keepSound} k={i}/><AbsoluteFill style={{background: 'linear-gradient(transparent 50%, rgba(0,0,0,.6))'}}/>
       {s.hook && <Text text={s.hook} big/>}{(s.caption || s.say) && <Text text={s.caption || s.say}/>}
-      <Logo logo={logo} size={78} style={{position: 'absolute', top: SAFE.top + 10, right: SAFE.right - 170}}/>
+      <Logo logo={logo} size={54} style={{position: 'absolute', top: SAFE.top + 10, right: SAFE.right - 150, opacity: .85}}/>
       {s.voice && <Audio src={url(s.voice)} volume={1}/>}
-      {offer && i >= (chipFrom ?? scenes.length - 2) && <Chip offer={offer}/>}</Sequence>; at += d; return el; });
+      {offer && i >= (chipFrom ?? scenes.length - 1) && <Chip offer={offer}/>}</Sequence>; at += d; return el; });
   const last = scenes[scenes.length - 1] || {};
   return <AbsoluteFill style={{background: INK}}>
     {items}

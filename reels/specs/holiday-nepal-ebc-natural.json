@@ -1,0 +1,19 @@
+{"name": "holiday-nepal-ebc-natural", "voice": "bm_george", "speed": 1.05,
+ "music": "audio/07-himalaya-dawn.m4a", "offer": "first",
+ "end": {"title": "Everest Base Camp Trek", "line": "15 days from London", "cta": "Book at urbooktravel.com"},
+ "scenes": [
+ {"seconds": 2.2, "src": "holiday/videos/nepal/nepal-namche-bazaar-snow-thamserku-hd.mp4", "hook": "The *hardest* 15 days you'll ever love",
+  "say": "The hardest fifteen days you'll ever love.", "caption": " "},
+ {"seconds": 2.2, "src": "holiday/videos/nepal/nepal-helicopter-landing-clouds-hd.mp4", "caption": "A tiny plane drops you in *Lukla*",
+  "say": "Day three. A tiny plane drops you in Lukla."},
+ {"seconds": 2.2, "src": "holiday/videos/nepal/nepal-namche-bazaar-vertical.mp4", "caption": "Day 4: you climb to *Namche*",
+  "say": "Day four, you climb to Namche Bazaar."},
+ {"seconds": 2.2, "src": "holiday/videos/nepal/nepal-namche-bazaar-snow-pan-hd.mp4", "caption": "3,440 m – the air gets *thin*",
+  "say": "Three thousand four hundred metres. The air gets thin."},
+ {"seconds": 2.2, "src": "holiday/videos/nepal/nepal-namche-bazaar-thamserku-pan-hd.mp4", "start": 6, "caption": "So day 5, you *rest*",
+  "say": "So on day five, you rest."},
+ {"seconds": 2.2, "src": "holiday/videos/nepal/nepal-helicopter-namche-heliport-hd.mp4", "caption": "Lodges, meals, Lukla flights – *included*",
+  "say": "Lodges, meals and Lukla flights are included."},
+ {"seconds": 2.4, "src": "holiday/videos/nepal/nepal-namche-bazaar-vertical.mp4", "start": 8, "caption": "This is the *Everest Base Camp* trek",
+  "say": "This is the Everest Base Camp trek."}
+ ]}

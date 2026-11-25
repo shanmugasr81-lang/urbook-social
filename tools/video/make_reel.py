@@ -50,7 +50,7 @@ def srt(scenes, path):
     t, n, lines = 0.0, 1, []
     f = lambda x: f'{int(x//3600):02d}:{int(x%3600//60):02d}:{int(x%60):02d},{int(round(x%1*1000)):03d}'
     for s in scenes:
-        txt = s.get('say') or s.get('caption') or s.get('hook')
+        txt = (s.get('say') or s.get('caption') or s.get('hook') or '').replace('*', '')
         if txt: lines += [str(n), f'{f(t)} --> {f(t + s["seconds"] - 0.05)}', txt, '']; n += 1
         t += s['seconds']
     open(path, 'w').write('\n'.join(lines))

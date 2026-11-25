@@ -1,0 +1,19 @@
+{"name": "holiday-uk-scotland-3day", "voice": "bm_daniel", "speed": 1.05,
+ "music": "audio/06-acoustic-roadtrip.m4a", "offer": "first",
+ "end": {"title": "Scotland & England – 3 days", "line": "From £319.30 per person (2 sharing) · 2 hotel nights", "cta": "Book at urbooktravel.com"},
+ "scenes": [
+ {"seconds": 2.6, "src": "backgrounds/holiday/packages/uk-scotland-england.jpg", "hook": "Nobody tells you *Scotland* is only 3 days away",
+  "say": "Nobody tells you Scotland is only three days away.", "caption": " "},
+ {"seconds": 2.6, "src": "backgrounds/holiday/packages/uk-lake-district.jpg", "caption": "Day 1: *Lake Windermere*, England's largest lake",
+  "say": "Day one. Lake Windermere, England's largest lake."},
+ {"seconds": 2.6, "src": "backgrounds/holiday/unsplash-I5wHnZqBiQI.jpg", "caption": "Day 2: through the *Highlands*",
+  "say": "Day two, through the Highlands to Fort William."},
+ {"seconds": 2.6, "src": "backgrounds/holiday/packages/uk-scotland-england.jpg", "caption": "…and a *cable car* up the Nevis Range",
+  "say": "And the Nevis Range cable car is included."},
+ {"seconds": 2.6, "src": "backgrounds/holiday/packages/uk-highlands.jpg", "caption": "Day 3: the *Royal Mile*, Edinburgh",
+  "say": "Day three, the Royal Mile, right below Edinburgh Castle."},
+ {"seconds": 2.6, "src": "backgrounds/holiday/unsplash-TXBwxc836Bc.jpg", "caption": "Driver, pick-up, 2 hotel nights – *sorted*",
+  "say": "Your driver, your pick-up and two hotel nights, all sorted."},
+ {"seconds": 2.6, "src": "backgrounds/holiday/packages/uk-lake-district.jpg", "caption": "So yes – *Scotland* is only 3 days away",
+  "say": "So yes. Scotland really is only three days away."}
+ ]}
