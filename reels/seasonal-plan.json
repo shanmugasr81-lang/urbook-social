@@ -1,0 +1,257 @@
+{
+ "about": "urbook seasonal reel plan (25 Nov 2026). Posting month -> destinations to push. Region -> music bed (urbook-owned) and Kokoro voice. Footage goes in each folder (urbook-owned, or free-licence Pexels/Pixabay; no people without a signed consent form).",
+ "regions": {
+  "Nepal": {
+   "music": "audio/07-himalaya-dawn.m4a",
+   "voice": "bm_george",
+   "best": "Mar–May, Oct–Nov (treks); Upper Mustang also Jun–Aug",
+   "folder": "holiday/videos/nepal"
+  },
+  "India": {
+   "music": "audio/08-spice-route.m4a",
+   "voice": "bf_isabella",
+   "best": "Oct–Mar (North and South); Kerala backwaters Nov–Feb",
+   "folder": "holiday/videos/india"
+  },
+  "Sri Lanka": {
+   "music": "audio/08-spice-route.m4a",
+   "voice": "bf_emma",
+   "best": "Dec–Apr (west and south coast, hill country)",
+   "folder": "holiday/videos/sri-lanka"
+  },
+  "Maldives": {
+   "music": "audio/09-island-breeze.m4a",
+   "voice": "bf_emma",
+   "best": "Nov–Apr (dry season)",
+   "folder": "holiday/videos/maldives"
+  },
+  "Middle East": {
+   "music": "audio/10-city-pulse.m4a",
+   "voice": "bf_isabella",
+   "best": "Oct–Apr (outside the summer heat)",
+   "folder": "holiday/videos/middle-east"
+  },
+  "North Africa": {
+   "music": "audio/08-spice-route.m4a",
+   "voice": "bm_lewis",
+   "best": "Oct–Apr (Nile cruise, Cairo); Red Sea most of the year",
+   "folder": "holiday/videos/egypt"
+  },
+  "South East Asia": {
+   "music": "audio/09-island-breeze.m4a",
+   "voice": "bf_emma",
+   "best": "Nov–Apr (Thailand, Cambodia, Laos, Vietnam south); Bali Apr–Oct",
+   "folder": "holiday/videos/south-east-asia"
+  },
+  "Vietnam": {
+   "music": "audio/09-island-breeze.m4a",
+   "voice": "bf_emma",
+   "best": "Feb–Apr nationwide; avoid central coast Oct–Nov",
+   "folder": "holiday/videos/vietnam"
+  },
+  "South Korea": {
+   "music": "audio/10-city-pulse.m4a",
+   "voice": "bf_alice",
+   "best": "Apr (cherry blossom), Oct–Nov (autumn leaves)",
+   "folder": "holiday/videos/south-korea"
+  },
+  "Southern and East Africa": {
+   "music": "audio/sunrise-journey.m4a",
+   "voice": "bm_lewis",
+   "best": "Jun–Oct (dry-season safari; Masai Mara migration Jul–Oct)",
+   "folder": "holiday/videos/africa"
+  },
+  "Australia and New Zealand": {
+   "music": "audio/06-acoustic-roadtrip.m4a",
+   "voice": "bm_daniel",
+   "best": "Nov–Mar (southern summer)",
+   "folder": "holiday/videos/australia-nz"
+  },
+  "South America": {
+   "music": "audio/10-city-pulse.m4a",
+   "voice": "bm_daniel",
+   "best": "Nov–Mar (Rio, Buenos Aires, Santiago summer); Colombia Dec–Mar",
+   "folder": "holiday/videos/south-america"
+  },
+  "Europe": {
+   "music": "audio/10-city-pulse.m4a",
+   "voice": "bf_isabella",
+   "best": "Apr–Oct; Christmas markets late Nov–Dec",
+   "folder": "holiday/videos/europe"
+  },
+  "Croatia": {
+   "music": "audio/09-island-breeze.m4a",
+   "voice": "bf_emma",
+   "best": "May–Jun, Sep (warm, fewer crowds); Jul–Aug peak",
+   "folder": "holiday/videos/croatia"
+  },
+  "Montenegro": {
+   "music": "audio/09-island-breeze.m4a",
+   "voice": "bf_emma",
+   "best": "May–Jun, Sep",
+   "folder": "holiday/videos/montenegro"
+  },
+  "United Kingdom": {
+   "music": "audio/06-acoustic-roadtrip.m4a",
+   "voice": "bm_daniel",
+   "best": "Apr–Sep for coast and lakes; London all year (Christmas lights Nov–Dec)",
+   "folder": "holiday/videos/uk"
+  },
+  "Parking": {
+   "music": "audio/05-lofi-departures.m4a",
+   "voice": "bf_alice",
+   "best": "before every UK school holiday and bank holiday",
+   "folder": "parking/videos"
+  }
+ },
+ "calendar": {
+  "Dec": {
+   "why": "Christmas break; January winter-sun bookings",
+   "push": [
+    "Maldives",
+    "Middle East",
+    "North Africa",
+    "Sri Lanka",
+    "India",
+    "South East Asia",
+    "Australia and New Zealand"
+   ],
+   "uk": "London 3 Day Tour (Christmas lights)",
+   "parking": "Christmas getaway Meet & Greet"
+  },
+  "Jan": {
+   "why": "peak booking month ('January sales'); Feb half-term and Easter",
+   "push": [
+    "Nepal",
+    "South Korea",
+    "North Africa",
+    "Maldives",
+    "Vietnam",
+    "Europe"
+   ],
+   "uk": "Oxford and the Cotswolds",
+   "parking": "February half-term"
+  },
+  "Feb": {
+   "why": "half-term; Easter and spring treks",
+   "push": [
+    "Nepal",
+    "South Korea",
+    "Middle East",
+    "Sri Lanka",
+    "Croatia",
+    "Montenegro"
+   ],
+   "uk": "Windsor, Stonehenge and Bath",
+   "parking": "Easter holidays"
+  },
+  "Mar": {
+   "why": "Easter; spring in Europe; early summer planning",
+   "push": [
+    "Europe",
+    "Nepal",
+    "Croatia",
+    "Montenegro",
+    "Southern and East Africa"
+   ],
+   "uk": "Devon and Cornwall",
+   "parking": "Easter + May bank holidays"
+  },
+  "Apr": {
+   "why": "May bank holidays; summer holidays get booked",
+   "push": [
+    "Europe",
+    "Croatia",
+    "Montenegro",
+    "South East Asia",
+    "Southern and East Africa"
+   ],
+   "uk": "Peak and Lake District",
+   "parking": "May half-term"
+  },
+  "May": {
+   "why": "half-term; summer holidays",
+   "push": [
+    "Croatia",
+    "Montenegro",
+    "Europe",
+    "Southern and East Africa",
+    "South East Asia"
+   ],
+   "uk": "Bournemouth and Durdle Door",
+   "parking": "summer holidays – book early"
+  },
+  "Jun": {
+   "why": "summer holidays begin; safari season",
+   "push": [
+    "Southern and East Africa",
+    "Europe",
+    "South East Asia",
+    "Nepal"
+   ],
+   "uk": "Isle of Wight; Scotland and England",
+   "parking": "summer holidays"
+  },
+  "Jul": {
+   "why": "summer holidays; autumn trek and Diwali planning",
+   "push": [
+    "Nepal",
+    "India",
+    "Southern and East Africa",
+    "Europe"
+   ],
+   "uk": "Highlands and Heritages; Wales Snowdonia",
+   "parking": "August bank holiday"
+  },
+  "Aug": {
+   "why": "autumn treks; October half-term",
+   "push": [
+    "Nepal",
+    "India",
+    "Middle East",
+    "North Africa",
+    "Croatia"
+   ],
+   "uk": "Lake District",
+   "parking": "September + October half-term"
+  },
+  "Sep": {
+   "why": "October half-term; Diwali; winter-sun planning",
+   "push": [
+    "North Africa",
+    "Middle East",
+    "India",
+    "Nepal",
+    "Maldives"
+   ],
+   "uk": "Oxford and the Cotswolds (autumn colour)",
+   "parking": "October half-term"
+  },
+  "Oct": {
+   "why": "Christmas markets; winter sun; southern summer",
+   "push": [
+    "Europe",
+    "Maldives",
+    "Sri Lanka",
+    "South East Asia",
+    "South America",
+    "Australia and New Zealand"
+   ],
+   "uk": "London 3 Day Tour",
+   "parking": "Christmas getaway"
+  },
+  "Nov": {
+   "why": "Black Friday; Christmas markets; winter sun",
+   "push": [
+    "Europe",
+    "India",
+    "North Africa",
+    "Maldives",
+    "Sri Lanka",
+    "Australia and New Zealand"
+   ],
+   "uk": "London Christmas lights",
+   "parking": "Christmas getaway Meet & Greet"
+  }
+ }
+}

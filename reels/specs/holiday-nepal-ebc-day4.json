@@ -1,0 +1,19 @@
+{"name": "holiday-nepal-ebc-day4", "voice": "bm_george", "speed": 1.0,
+ "music": "audio/07-himalaya-dawn.m4a", "offer": "first",
+ "end": {"title": "Everest Base Camp Trek", "line": "15 days · Kathmandu to base camp", "cta": "Book at urbooktravel.com"},
+ "scenes": [
+ {"seconds": 2.2, "src": "holiday/videos/nepal/nepal-namche-bazaar-vertical.mp4", "hook": "Day 4 of 15 · Namche Bazaar",
+  "say": "Day four of fifteen. Namche Bazaar.", "caption": " "},
+ {"seconds": 2.6, "src": "holiday/videos/nepal/nepal-namche-bazaar-snow-thamserku-hd.mp4", "caption": "…and you still have 11 days to go",
+  "say": "And you still have eleven days to go."},
+ {"seconds": 2.4, "src": "holiday/videos/nepal/nepal-namche-bazaar-thamserku-pan-hd.mp4", "caption": "Day 3: fly Kathmandu to Lukla",
+  "say": "Day three, you fly from Kathmandu to Lukla."},
+ {"seconds": 2.4, "src": "holiday/videos/nepal/nepal-namche-bazaar-snow-pan-hd.mp4", "caption": "Day 4: up to 3,440 m",
+  "say": "Day four, you climb to three thousand four hundred and forty metres."},
+ {"seconds": 2.4, "src": "holiday/videos/nepal/nepal-namche-bazaar-snow-thamserku-hd.mp4", "start": 5, "caption": "Day 5: a second night to acclimatise",
+  "say": "Day five, you stay a second night, so your body can adjust."},
+ {"seconds": 2.4, "src": "holiday/videos/nepal/nepal-namche-bazaar-thamserku-pan-hd.mp4", "start": 8, "caption": "Lodges, meals, Lukla flights + park fees included",
+  "say": "Lodges, meals, Lukla flights and park fees are all in the price."},
+ {"seconds": 2.2, "src": "holiday/videos/nepal/nepal-namche-bazaar-vertical.mp4", "start": 9, "hook": "Your Day 4 is waiting",
+  "say": "Your day four is waiting.", "caption": " "}
+ ]}

@@ -26,3 +26,11 @@ into `models/whisper/base.en/` – or give Claude a Mac folder with them and Cla
 - No AI-made people; real people only with a signed consent form; realistic AI imagery gets the platform "AI info" label.
 - Comment-keyword DMs only through Meta's own automated responses / Meta-approved partners – never unofficial bots.
 - No claims we can't prove (best, cheapest, guaranteed, 24/7, free cancellation); prices only if they match the live site.
+
+## Voice, logo, offer and end card (v2, 25 Nov 2026)
+- `python3 tools/video/make_reel.py reels/specs/<name>.json` → voice per scene (Kokoro British voice), render, loudness -14 LUFS, `.srt` subtitles. Example spec: `reels/specs/holiday-nepal-ebc-day4.json`.
+- Every reel gets the urbook logo (white badge), an offer chip on the last two scenes (`"offer": "first"` = URFIRST10, `"returning"` = URBACK5) and a 3 s end card: logo, package, offer, "Book at urbooktravel.com".
+- Strong voice, mild music: the music bed drops to 12% under the voice.
+- Voices: bf_alice, bf_emma, bf_isabella, bf_lily, bm_daniel, bm_fable, bm_george, bm_lewis. Region → voice + music: `reels/seasonal-plan.json`.
+- Any voice is allowed (Shan, 25 Nov 2026). Tick the AI-generated label when the voice is synthetic. No people on video without signed consent.
+- Checked and not used: Edge-TTS (Microsoft service, blocked here and not cleared for commercial use), F5-TTS (non-commercial weights), VoiceStudio / Voicebox (GPU desktop apps; Kokoro inside them is the same engine we use). Whisper is only needed for Shan's own recorded voice; with Kokoro we already know the words, so the `.srt` is made from the script.

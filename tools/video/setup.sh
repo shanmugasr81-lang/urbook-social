@@ -5,7 +5,7 @@ set -u
 cd "$(dirname "$0")"
 CH="$(python3 -c 'from playwright.sync_api import sync_playwright as s; p=s().start(); print(p.chromium.executable_path); p.stop()' 2>/dev/null || true)"
 export URBOOK_CHROME="$CH" PUPPETEER_EXECUTABLE_PATH="$CH" CHROME_PATH="$CH"
-pip install --break-system-packages -q faster-whisper yt-dlp >/dev/null 2>&1
+pip install --break-system-packages -q faster-whisper yt-dlp kokoro-onnx soundfile >/dev/null 2>&1
 (cd remotion && npm install --silent --no-audit --no-fund >/dev/null 2>&1)
 ok(){ echo "PASS  $1"; }; bad(){ echo "FAIL  $1 – $2"; }
 T=$(mktemp -d)
@@ -23,3 +23,11 @@ else echo "WAIT  Whisper – installed, but no model in models/whisper/ yet (see
 # 5 yt-dlp (installed only; own-content rule – see README)
 yt-dlp --version >/dev/null 2>&1 && ok "yt-dlp $(yt-dlp --version) (urbook-owned content only)" || bad yt-dlp "not installed"
 rm -rf "$T"
+
+# 6 Voice (Kokoro-82M, Apache-2.0, British voices). Model files come from GitHub releases (not committed: 350 MB).
+K=../../models/kokoro; mkdir -p $K
+for f in kokoro-v1.0.onnx voices-v1.0.bin; do [ -s $K/$f ] || curl -sSL -o $K/$f https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/$f; done
+python3 -c "
+import soundfile as sf; from kokoro_onnx import Kokoro
+k=Kokoro('$K/kokoro-v1.0.onnx','$K/voices-v1.0.bin'); a,sr=k.create('Hello from urbook.',voice='bm_george',lang='en-gb'); assert len(a)>sr*0.5
+" >/dev/null 2>&1 && ok "Voice (Kokoro, bf_/bm_ British voices)" || bad Voice "Kokoro did not speak"
