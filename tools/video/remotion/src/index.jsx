@@ -4,8 +4,8 @@ import {registerRoot, Composition, AbsoluteFill, Sequence, OffthreadVideo, Img, 
 import React from 'react';
 const INK = '#0E2A47', SUN = '#F5821F';
 const SAFE = {top: 230, bottom: 480, right: 230, left: 60}; // Instagram/TikTok safe zone on 1080x1920
-const Media = ({src}) => !src ? <AbsoluteFill style={{background: INK}}/> :
-  /\.(mp4|mov|webm)$/i.test(src) ? <OffthreadVideo src={src.startsWith('http') ? src : staticFile(src)} muted style={{width: '100%', height: '100%', objectFit: 'cover'}}/> :
+const Media = ({src, start = 0}) => !src ? <AbsoluteFill style={{background: INK}}/> :
+  /\.(mp4|mov|webm)$/i.test(src) ? <OffthreadVideo startFrom={Math.round(start * 30)} src={src.startsWith("http") ? src : staticFile(src)} muted style={{width: '100%', height: '100%', objectFit: 'cover'}}/> :
   <Img src={src.startsWith('http') ? src : staticFile(src)} style={{width: '100%', height: '100%', objectFit: 'cover'}}/>;
 const Text = ({text, big}) => { const f = useCurrentFrame(); const o = interpolate(f, [0, 6], [0, 1], {extrapolateRight: 'clamp'});
   return <div style={{position: 'absolute', left: SAFE.left, right: SAFE.right, top: big ? SAFE.top + 120 : undefined, bottom: big ? undefined : SAFE.bottom,
@@ -14,7 +14,7 @@ const Text = ({text, big}) => { const f = useCurrentFrame(); const o = interpola
 const StoryReel = ({scenes = [], music, fps = 30}) => { let at = 0;
   return <AbsoluteFill style={{background: INK}}>
     {scenes.map((s, i) => { const d = Math.round((s.seconds || 2.5) * fps); const el =
-      <Sequence key={i} from={at} durationInFrames={d}><Media src={s.src}/><AbsoluteFill style={{background: 'linear-gradient(transparent 55%, rgba(0,0,0,.55))'}}/>
+      <Sequence key={i} from={at} durationInFrames={d}><Media src={s.src} start={s.start}/><AbsoluteFill style={{background: 'linear-gradient(transparent 55%, rgba(0,0,0,.55))'}}/>
         {s.hook && <Text text={s.hook} big/>}{s.caption && <Text text={s.caption}/>}</Sequence>; at += d; return el; })}
     {music && <Audio src={staticFile(music)} volume={0.35}/>}
   </AbsoluteFill>; };
