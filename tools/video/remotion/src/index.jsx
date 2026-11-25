@@ -8,8 +8,8 @@ const INK = '#0E2A47', SUN = '#F5821F';
 const SAFE = {top: 230, bottom: 480, right: 230, left: 60}; // Instagram/TikTok safe zone on 1080x1920
 const FPS = 30, END_S = 3;
 const url = s => (s.startsWith('http') ? s : staticFile(s));
-const Media = ({src, start = 0}) => !src ? <AbsoluteFill style={{background: INK}}/> :
-  /\.(mp4|mov|webm)$/i.test(src) ? <OffthreadVideo startFrom={Math.round(start * FPS)} src={url(src)} muted style={{width: '100%', height: '100%', objectFit: 'cover'}}/> :
+const Media = ({src, start = 0, sound = false}) => !src ? <AbsoluteFill style={{background: INK}}/> :
+  /\.(mp4|mov|webm)$/i.test(src) ? <OffthreadVideo startFrom={Math.round(start * FPS)} src={url(src)} muted={!sound} volume={1} style={{width: '100%', height: '100%', objectFit: 'cover'}}/> :
   <Img src={url(src)} style={{width: '100%', height: '100%', objectFit: 'cover'}}/>;
 const fade = () => interpolate(useCurrentFrame(), [0, 6], [0, 1], {extrapolateRight: 'clamp'});
 const Text = ({text, big}) => <div style={{position: 'absolute', left: SAFE.left, right: SAFE.right, top: big ? SAFE.top + 130 : undefined, bottom: big ? undefined : SAFE.bottom,
@@ -28,9 +28,10 @@ const EndCard = ({end = {}, offer, logo, src, start}) => <AbsoluteFill>
     {offer && <div style={{background: SUN, fontSize: 44, fontWeight: 800, padding: '14px 28px', borderRadius: 18}}>{offer.end}</div>}
     <div style={{fontSize: 52, fontWeight: 800, borderBottom: `6px solid ${SUN}`, paddingBottom: 6}}>{end.cta || 'Book at urbooktravel.com'}</div>
   </AbsoluteFill></AbsoluteFill>;
-const StoryReel = ({scenes = [], music, logo, offer, end, chipFrom}) => { let at = 0; const hasVoice = scenes.some(s => s.voice);
+// keepSound (25 Nov 2026, Shan): the clip's own voice + music are kept exactly; no music bed, no AI voice.
+const StoryReel = ({scenes = [], music, logo, offer, end, chipFrom, keepSound = false}) => { let at = 0; const hasVoice = scenes.some(s => s.voice);
   const items = scenes.map((s, i) => { const d = Math.round((s.seconds || 2.5) * FPS); const el =
-    <Sequence key={i} from={at} durationInFrames={d}><Media src={s.src} start={s.start}/><AbsoluteFill style={{background: 'linear-gradient(transparent 50%, rgba(0,0,0,.6))'}}/>
+    <Sequence key={i} from={at} durationInFrames={d}><Media src={s.src} start={s.start} sound={keepSound}/><AbsoluteFill style={{background: 'linear-gradient(transparent 50%, rgba(0,0,0,.6))'}}/>
       {s.hook && <Text text={s.hook} big/>}{(s.caption || s.say) && <Text text={s.caption || s.say}/>}
       <Logo logo={logo} size={78} style={{position: 'absolute', top: SAFE.top + 10, right: SAFE.right - 170}}/>
       {s.voice && <Audio src={url(s.voice)} volume={1}/>}
@@ -39,7 +40,7 @@ const StoryReel = ({scenes = [], music, logo, offer, end, chipFrom}) => { let at
   return <AbsoluteFill style={{background: INK}}>
     {items}
     {end !== false && <Sequence from={at} durationInFrames={END_S * FPS}><EndCard end={end} offer={offer} logo={logo} src={last.src} start={(last.start || 0) + (last.seconds || 0)}/></Sequence>}
-    {music && <Audio src={url(music)} volume={hasVoice ? 0.12 : 0.35}/>}
+    {music && !keepSound && <Audio src={url(music)} volume={hasVoice ? 0.12 : 0.35}/>}
   </AbsoluteFill>; };
 const len = p => Math.max(30, Math.round(((p.scenes || []).reduce((a, s) => a + (s.seconds || 2.5), 0) + (p.end === false ? 0 : END_S)) * FPS));
 registerRoot(() => <Composition id="StoryReel" component={StoryReel} fps={FPS} width={1080} height={1920}

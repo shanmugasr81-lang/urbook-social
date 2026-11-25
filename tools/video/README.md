@@ -34,3 +34,9 @@ into `models/whisper/base.en/` – or give Claude a Mac folder with them and Cla
 - Voices: bf_alice, bf_emma, bf_isabella, bf_lily, bm_daniel, bm_fable, bm_george, bm_lewis. Region → voice + music: `reels/seasonal-plan.json`.
 - Any voice is allowed (Shan, 25 Nov 2026). Tick the AI-generated label when the voice is synthetic. No people on video without signed consent.
 - Checked and not used: Edge-TTS (Microsoft service, blocked here and not cleared for commercial use), F5-TTS (non-commercial weights), VoiceStudio / Voicebox (GPU desktop apps; Kokoro inside them is the same engine we use). Whisper is only needed for Shan's own recorded voice; with Kokoro we already know the words, so the `.srt` is made from the script.
+
+## Shan's own reels – keep his voice and music (25 Nov 2026)
+- Shan sends a reel (chat attachment or Google Drive folder "urbook reels") with one line: `reel · holiday|parking · place/product · what it shows · IG/TikTok/both`.
+- Spec: `"keepSound": true` – the clip's own voice + music play exactly as recorded; no music bed, no Kokoro voice. Scenes use `start` / `seconds` to cut; captions = the words Shan says (he types them, or Whisper once its model is in models/whisper/).
+- Still added: subtitles, urbook logo, offer chip, end card "Book at urbooktravel.com".
+- Music already inside the video must be licensed for business use (our own, or royalty-free). For an Instagram/TikTok trending sound, export WITHOUT that music and add the sound in the app when posting – a copyrighted track baked into the file can be muted or blocked.
