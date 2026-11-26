@@ -1,0 +1,4 @@
+voice: bm_daniel
+music: audio/06-acoustic-roadtrip.m4a
+metricool: 442483545 (IG reel, FB reel, TikTok, YouTube short) 2026-11-26 18:30 UK
+hook: Nobody tells you Scotland is only 3 days away (score 100)

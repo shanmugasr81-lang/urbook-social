@@ -1,5 +1,8 @@
 # urbook social reels – the process (Shan, 25 Nov 2026)
 
+**Standing rule (Shan, 25 Nov 2026 23:58):** every post on **TikTok, Instagram, Facebook and YouTube (Shorts)** is a video reel like `posts/2026-11-26/urbook-2026-11-26-reel-scotland-3day.mp4` – same quality, voice + background music, the highest-scoring hooks. One video goes to all four networks (Instagram REEL, Facebook REEL, TikTok, YouTube short) with the AI-voice label ticked when the voice is synthetic.
+**Different video → different voice and matching music:** never repeat the previous reel's voice + music pair. Pick the voice and bed that fit the place and mood (list below), and log the pair used in the post folder.
+
 Agents (social, learn-social) and Claude follow this for every reel. Hard rules in `parking/reels/INSTRUCTIONS.md` and the `ig-reel` skill still apply.
 
 ## 1. Where things go
@@ -14,6 +17,16 @@ Agents (social, learn-social) and Claude follow this for every reel. Hard rules 
 - Shan's own reels: `"keepSound": true` – his voice and music exactly as recorded.
 - Built reels: a British voice (male `bm_daniel` / `bm_george`, female `bf_emma` / `bf_isabella`) and a music bed from `audio/` at 12% under the voice – region → voice + music in `reels/seasonal-plan.json`.
 - Music inside a file must be ours or royalty-free. Trending app sounds are added in the app when posting, never baked into the file.
+
+### Voice + music by mood (rotate – never the same pair twice in a row)
+| Mood / place | Voices (pick one not used last time) | Music beds |
+|---|---|---|
+| Mountains, treks, Nepal | bm_george, bf_isabella | 07-himalaya-dawn, sunrise-journey |
+| UK road trips, Scotland, countryside | bm_daniel, bf_emma | 06-acoustic-roadtrip, soft-travel |
+| Cities, Europe, Dubai, Seoul | bf_isabella, bm_lewis | 10-city-pulse, 05-lofi-departures |
+| Beaches, islands, Maldives, SE Asia | bf_emma, bf_alice | 09-island-breeze, sunrise-journey |
+| India, Sri Lanka, Egypt | bm_lewis, bf_isabella | 08-spice-route, sunrise-journey |
+| Parking, airport | bf_alice, bm_daniel | airport-calm, 05-lofi-departures, lounge-evening |
 
 ## 3. The natural look (like the Colmar TikTok Shan liked)
 - Real footage or photos that move (slow zoom/pan), a new shot every **2–3 s**, 15–30 s total.
