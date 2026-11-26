@@ -1965,6 +1965,39 @@
     "branded_square": "ads/holidays/branded/europe-your-way_square.jpg",
     "branded_landscape": "ads/holidays/branded/europe-your-way_landscape.jpg"
    }
+  },
+  {
+   "file": "backgrounds/holiday/packages/uk-blenheim-palace-fountain.jpg",
+   "category": "holiday",
+   "region": "United Kingdom",
+   "subject": "Blenheim Palace with the water terrace fountain",
+   "package": "Blenheim Palace & Oxford",
+   "source": "https://unsplash.com/photos/_WDocStxPoM",
+   "downloadUrl": "https://unsplash.com/photos/_WDocStxPoM/download?force=true&w=1600",
+   "licence": "Unsplash Licence (free commercial use, no attribution needed)",
+   "faces": false
+  },
+  {
+   "file": "backgrounds/holiday/packages/uk-blenheim-palace-lawn.jpg",
+   "category": "holiday",
+   "region": "United Kingdom",
+   "subject": "Blenheim Palace across the great lawn",
+   "package": "Blenheim Palace & Oxford",
+   "source": "https://unsplash.com/photos/_oromgcLM5w",
+   "downloadUrl": "https://unsplash.com/photos/_oromgcLM5w/download?force=true&w=1600",
+   "licence": "Unsplash Licence (free commercial use, no attribution needed)",
+   "faces": false
+  },
+  {
+   "file": "backgrounds/holiday/packages/uk-blenheim-grand-bridge.jpg",
+   "category": "holiday",
+   "region": "United Kingdom",
+   "subject": "The Grand Bridge in Blenheim Park",
+   "package": "Blenheim Palace & Oxford",
+   "source": "https://unsplash.com/photos/ioTkty8SlUA",
+   "downloadUrl": "https://unsplash.com/photos/ioTkty8SlUA/download?force=true&w=1600",
+   "licence": "Unsplash Licence (free commercial use, no attribution needed)",
+   "faces": false
   }
  ]
 }
