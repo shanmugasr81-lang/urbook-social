@@ -17,6 +17,8 @@ ffmpeg -loglevel error -y -f lavfi -i testsrc2=s=1080x1920:r=30:d=1 -c:v libx264
 (cd "$T" && npx -y hyperframes@0.9 init hf --example=blank --non-interactive --skip-transcribe >/dev/null 2>&1 && cd hf && timeout 240 npx -y hyperframes@0.9 render . -o "$T/hf.mp4" -q draft -w 1 >/dev/null 2>&1) && [ -s "$T/hf.mp4" ] && ok "HyperFrames 0.9" || bad HyperFrames "render failed"
 # 4 Whisper (faster-whisper). Model must be local: models/whisper/<name>/ (Hugging Face is blocked in the cloud).
 python3 -c "import faster_whisper" 2>/dev/null || bad Whisper "faster-whisper not installed"
+W=../../models/whisper/base.en; mkdir -p $W   # 26 Nov 2026: from this repo's release (whisper-model.yml fetched it from Hugging Face)
+for f in model.bin config.json tokenizer.json vocabulary.txt; do [ -s $W/$f ] || curl -sSL -o $W/$f https://github.com/shanmugasr81-lang/urbook-social/releases/download/model-whisper-base.en/$f; done
 M=$(ls -d ../../models/whisper/*/ 2>/dev/null | head -1)
 if [ -n "$M" ]; then python3 -c "from faster_whisper import WhisperModel as W; W('$M',device='cpu',compute_type='int8')" >/dev/null 2>&1 && ok "Whisper (model ${M#../../})" || bad Whisper "model at $M did not load"
 else echo "WAIT  Whisper – installed, but no model in models/whisper/ yet (see tools/video/README.md)"; fi

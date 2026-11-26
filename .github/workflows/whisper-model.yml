@@ -1,0 +1,24 @@
+# Whisper model for reel subtitles (26 Nov 2026, Shan: "please carry on").
+# Claude's cloud cannot reach Hugging Face, but GitHub can: this job downloads
+# Systran/faster-whisper-base.en (MIT) once and attaches the 4 files to the release
+# 'model-whisper-base.en'. tools/video/setup.sh downloads them from there.
+name: whisper-model
+on: { workflow_dispatch: {} }
+permissions: { contents: write }
+jobs:
+  fetch:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Download from Hugging Face
+        run: |
+          mkdir m && cd m
+          for f in model.bin config.json tokenizer.json vocabulary.txt; do
+            curl -fsSL -o "$f" "https://huggingface.co/Systran/faster-whisper-base.en/resolve/main/$f"
+          done
+          ls -l && sha256sum * > SHA256SUMS
+      - name: Attach to release
+        env: { GH_TOKEN: '${{ github.token }}' }
+        run: |
+          gh release view model-whisper-base.en -R "$GITHUB_REPOSITORY" >/dev/null 2>&1 || \
+            gh release create model-whisper-base.en -R "$GITHUB_REPOSITORY" --title "Whisper base.en model (faster-whisper, MIT)" --notes "Systran/faster-whisper-base.en for reel subtitles. Downloaded by tools/video/setup.sh."
+          gh release upload model-whisper-base.en m/* -R "$GITHUB_REPOSITORY" --clobber

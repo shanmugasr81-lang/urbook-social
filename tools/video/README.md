@@ -10,10 +10,11 @@ Run `bash tools/video/setup.sh` at the start of any reel job – it installs and
 | **Whisper** (faster-whisper) | burned-in subtitles from the voiceover (most people watch muted) | needs a local model, see below |
 | **yt-dlp** | **urbook-owned content only** – back up or re-edit our own posted Instagram/TikTok/YouTube videos | never download other accounts' videos (Instagram/TikTok terms + copyright → account block risk) |
 
-## Whisper model (one-off, Shan)
-Hugging Face is blocked from Claude's cloud, so the model must sit in this repo:
-download `Systran/faster-whisper-base.en` (files `model.bin`, `config.json`, `tokenizer.json`, `vocabulary.txt`, ≈145 MB)
-into `models/whisper/base.en/` – or give Claude a Mac folder with them and Claude commits them.
+## Whisper model (done by Claude, 26 Nov 2026)
+Hugging Face is blocked from Claude's cloud, so GitHub fetches it: the `whisper-model` workflow put
+`Systran/faster-whisper-base.en` (MIT; `model.bin`, `config.json`, `tokenizer.json`, `vocabulary.txt`, ≈145 MB)
+on the release `model-whisper-base.en` of this repo, and `setup.sh` downloads it into `models/whisper/base.en/`
+(not committed – too big for git).
 
 ## Making a story reel (what the social agent does)
 1. Brief from `/ig-reel` (hook scored ≥ 50, beat sheet 15–45 s) + the reference notes in `<product>/reels/<platform>/notes.md`.
