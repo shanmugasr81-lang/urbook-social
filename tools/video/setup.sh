@@ -5,7 +5,7 @@ set -u
 cd "$(dirname "$0")"
 CH="$(python3 -c 'from playwright.sync_api import sync_playwright as s; p=s().start(); print(p.chromium.executable_path); p.stop()' 2>/dev/null || true)"
 export URBOOK_CHROME="$CH" PUPPETEER_EXECUTABLE_PATH="$CH" CHROME_PATH="$CH"
-pip install --break-system-packages -q faster-whisper yt-dlp kokoro-onnx soundfile >/dev/null 2>&1
+pip install --break-system-packages -q faster-whisper "av>=11,<14" yt-dlp kokoro-onnx soundfile >/dev/null 2>&1   # av 14+ breaks faster-whisper audio decoding (26 Nov 2026)
 (cd remotion && npm install --silent --no-audit --no-fund >/dev/null 2>&1)
 ok(){ echo "PASS  $1"; }; bad(){ echo "FAIL  $1 – $2"; }
 T=$(mktemp -d)
