@@ -1,0 +1,63 @@
+{
+ "name": "parking-meet-greet-4am-taxi",
+ "voice": "bf_alice",
+ "speed": 1.0,
+ "music": "audio/soft-travel.m4a",
+ "offer": {
+  "chip": "£10 off your first booking · URFIRST10",
+  "end": "First booking? £10 off with URFIRST10 · Black Friday: £5 off with BLACKFRIDAY5 until Mon 30 Nov"
+ },
+ "end": {
+  "title": "Heathrow Meet & Greet",
+  "line": "Hand over your keys at the terminal",
+  "cta": "Book at urbook.co.uk"
+ },
+ "scenes": [
+  {
+   "seconds": 2.4,
+   "src": "ads/parking/parking-airport-carpark-aerial_square_1200x1200.jpg",
+   "hook": "6am Heathrow flight… *4am* taxi? 😩",
+   "say": "Six a.m. flight from Heathrow. Four a.m. taxi?",
+   "spoken": "Six A M flight from Heathrow. Four A M taxi?",
+   "caption": " "
+  },
+  {
+   "seconds": 2.4,
+   "src": "backgrounds/parking/pexels-19184902.jpg",
+   "caption": "Drive yourself – with *Meet & Greet*",
+   "say": "Drive yourself instead, with Meet and Greet."
+  },
+  {
+   "seconds": 2.4,
+   "src": "ads/parking/airport-terminal_square_1200x1200.jpg",
+   "caption": "Hand over your keys *at the terminal*",
+   "say": "Hand your keys to the driver at the terminal."
+  },
+  {
+   "seconds": 2.4,
+   "src": "backgrounds/airport/pexels-2833379.jpg",
+   "caption": "Walk straight in – *no shuttle* wait",
+   "say": "Then walk straight in. No shuttle wait."
+  },
+  {
+   "seconds": 2.4,
+   "src": "backgrounds/parking/pexels-19184902.jpg",
+   "caption": "Land back – your car is *waiting*",
+   "say": "When you land back, your car is waiting for you."
+  },
+  {
+   "seconds": 2.6,
+   "src": "ads/parking/parking-airport-carpark-aerial_square_1200x1200.jpg",
+   "caption": "Challenge: which Heathrow terminal opened in *2008*?",
+   "say": "Quick challenge. Which Heathrow terminal opened in 2008? Comment below.",
+   "spoken": "Quick challenge. Which Heathrow terminal opened in two thousand and eight? Comment below."
+  },
+  {
+   "seconds": 2.4,
+   "src": "ads/parking/airport-terminal_square_1200x1200.jpg",
+   "caption": "No *4am* taxi this Christmas",
+   "say": "So, no four a.m. taxi this Christmas.",
+   "spoken": "So, no four A M taxi this Christmas."
+  }
+ ]
+}
